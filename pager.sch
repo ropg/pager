@@ -3261,6 +3261,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="R1" gate="G$1" pin="2"/>
+<junction x="40.64" y="154.94"/>
+<junction x="45.72" y="154.94"/>
+<junction x="50.8" y="154.94"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -3277,6 +3280,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
+<junction x="73.66" y="154.94"/>
+<junction x="78.74" y="154.94"/>
+<junction x="83.82" y="154.94"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -3373,6 +3379,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="R12" gate="G$1" pin="2"/>
+<junction x="-68.58" y="154.94"/>
+<junction x="-63.5" y="154.94"/>
+<junction x="-58.42" y="154.94"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -3389,6 +3398,9 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <pinref part="R13" gate="G$1" pin="2"/>
+<junction x="-101.6" y="154.94"/>
+<junction x="-96.52" y="154.94"/>
+<junction x="-91.44" y="154.94"/>
 </segment>
 </net>
 <net name="BIAS_2B" class="0">
