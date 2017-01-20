@@ -2655,8 +2655,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="106.68" y="96.52" size="1.778" layer="91">in-rush limiting</text>
-<text x="53.34" y="33.02" size="1.778" layer="91">to display</text>
+<text x="106.68" y="96.52" size="1.778" layer="97">in-rush limiting</text>
+<text x="53.34" y="33.02" size="1.778" layer="97">to display</text>
 <text x="-101.6" y="165.1" size="1.778" layer="97">TODO: Determine actual bias resistor values!</text>
 <text x="40.64" y="165.1" size="1.778" layer="97">TODO: Determine actual bias resistor values!</text>
 </plain>
