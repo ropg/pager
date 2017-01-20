@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.508" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,158 +58,155 @@
 <library>
 <packages>
 <package name="VOCORE2-THROUGH-HOLE">
-<wire x1="0" y1="0" x2="25.8064" y2="0" width="0" layer="21"/>
-<wire x1="25.8064" y1="0" x2="25.8064" y2="25.8064" width="0" layer="21"/>
-<wire x1="0" y1="25.8064" x2="25.8064" y2="25.8064" width="0" layer="21"/>
-<wire x1="0" y1="25.8064" x2="0" y2="0" width="0" layer="21"/>
-<pad name="PB00" x="1.0922" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB01" x="2.3622" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB02" x="3.6322" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB03" x="4.9022" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB04" x="6.1722" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB05" x="7.4422" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB06" x="8.7122" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB07" x="9.9822" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB08" x="11.2522" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB09" x="12.5222" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB12" x="13.7922" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB13" x="15.0622" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB10" x="16.3322" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PB11" x="17.6022" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PL15" x="1.0922" y="2.9972" drill="0.508" diameter="1.016"/>
-<pad name="PL14" x="1.0922" y="4.2672" drill="0.508" diameter="1.016"/>
-<pad name="PL13" x="1.0922" y="5.5372" drill="0.508" diameter="1.016"/>
-<pad name="PL12" x="1.0922" y="6.8072" drill="0.508" diameter="1.016"/>
-<pad name="PL11" x="1.0922" y="8.0772" drill="0.508" diameter="1.016"/>
-<pad name="PL10" x="1.0922" y="9.3472" drill="0.508" diameter="1.016"/>
-<pad name="PL09" x="1.0922" y="10.6172" drill="0.508" diameter="1.016"/>
-<pad name="PL08" x="1.0922" y="11.8872" drill="0.508" diameter="1.016"/>
-<pad name="PL07" x="1.0922" y="13.1572" drill="0.508" diameter="1.016"/>
-<pad name="PL06" x="1.0922" y="14.4272" drill="0.508" diameter="1.016"/>
-<pad name="PL05" x="1.0922" y="15.6972" drill="0.508" diameter="1.016"/>
-<pad name="PL04" x="1.0922" y="16.9672" drill="0.508" diameter="1.016"/>
-<pad name="PL03" x="1.0922" y="18.2372" drill="0.508" diameter="1.016"/>
-<pad name="PL02" x="1.0922" y="19.5072" drill="0.508" diameter="1.016"/>
-<pad name="PL01" x="1.0922" y="20.7772" drill="0.508" diameter="1.016"/>
-<pad name="PL00" x="1.0922" y="22.0472" drill="0.508" diameter="1.016"/>
-<pad name="PT00" x="5.1562" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT01" x="6.4262" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT02" x="7.6962" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT03" x="8.9662" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT04" x="10.2362" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT05" x="11.5062" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT06" x="12.7762" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT07" x="14.0462" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT08" x="15.3162" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT09" x="16.5862" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT10" x="17.8562" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PT11" x="19.1262" y="24.7142" drill="0.508" diameter="1.016"/>
-<pad name="PR14" x="24.7142" y="1.0922" drill="0.508" diameter="1.016"/>
-<pad name="PR13" x="24.7142" y="2.3622" drill="0.508" diameter="1.016"/>
-<pad name="PR12" x="24.7142" y="3.6322" drill="0.508" diameter="1.016"/>
-<pad name="PR11" x="24.7142" y="4.9022" drill="0.508" diameter="1.016"/>
-<pad name="PR10" x="24.7142" y="6.1722" drill="0.508" diameter="1.016"/>
-<pad name="PR09" x="24.7142" y="7.4422" drill="0.508" diameter="1.016"/>
-<pad name="PR08" x="24.7142" y="8.7122" drill="0.508" diameter="1.016"/>
-<pad name="PR07" x="24.7142" y="9.9822" drill="0.508" diameter="1.016"/>
-<pad name="PR06" x="24.7142" y="11.2522" drill="0.508" diameter="1.016"/>
-<pad name="PR05" x="24.7142" y="12.5222" drill="0.508" diameter="1.016"/>
-<pad name="PR04" x="24.7142" y="13.7922" drill="0.508" diameter="1.016"/>
-<pad name="PR03" x="24.7142" y="15.0622" drill="0.508" diameter="1.016"/>
-<pad name="PR02" x="24.7142" y="16.3322" drill="0.508" diameter="1.016"/>
-<pad name="PR01" x="24.7142" y="17.6022" drill="0.508" diameter="1.016"/>
-<pad name="PR00" x="24.7142" y="18.8722" drill="0.508" diameter="1.016"/>
-<pad name="LX01" x="2.3622" y="11.8872" drill="0.508" diameter="1.016"/>
-<pad name="LX02" x="2.3622" y="10.6172" drill="0.508" diameter="1.016"/>
+<wire x1="-12.9032" y1="-12.9032" x2="12.9032" y2="-12.9032" width="0" layer="21"/>
+<wire x1="12.9032" y1="-12.9032" x2="12.9032" y2="12.9032" width="0" layer="21"/>
+<wire x1="-12.9032" y1="12.9032" x2="12.9032" y2="12.9032" width="0" layer="21"/>
+<wire x1="-12.9032" y1="12.9032" x2="-12.9032" y2="-12.9032" width="0" layer="21"/>
+<pad name="PB00" x="-11.811" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB01" x="-10.541" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB02" x="-9.271" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB03" x="-8.001" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB04" x="-6.731" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB05" x="-5.461" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB06" x="-4.191" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB07" x="-2.921" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB08" x="-1.651" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB09" x="-0.381" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB12" x="0.889" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB13" x="2.159" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB10" x="3.429" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PB11" x="4.699" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PL15" x="-11.811" y="-9.906" drill="0.508" diameter="1.016"/>
+<pad name="PL14" x="-11.811" y="-8.636" drill="0.508" diameter="1.016"/>
+<pad name="PL13" x="-11.811" y="-7.366" drill="0.508" diameter="1.016"/>
+<pad name="PL12" x="-11.811" y="-6.096" drill="0.508" diameter="1.016"/>
+<pad name="PL11" x="-11.811" y="-4.826" drill="0.508" diameter="1.016"/>
+<pad name="PL10" x="-11.811" y="-3.556" drill="0.508" diameter="1.016"/>
+<pad name="PL09" x="-11.811" y="-2.286" drill="0.508" diameter="1.016"/>
+<pad name="PL08" x="-11.811" y="-1.016" drill="0.508" diameter="1.016"/>
+<pad name="PL07" x="-11.811" y="0.254" drill="0.508" diameter="1.016"/>
+<pad name="PL06" x="-11.811" y="1.524" drill="0.508" diameter="1.016"/>
+<pad name="PL05" x="-11.811" y="2.794" drill="0.508" diameter="1.016"/>
+<pad name="PL04" x="-11.811" y="4.064" drill="0.508" diameter="1.016"/>
+<pad name="PL03" x="-11.811" y="5.334" drill="0.508" diameter="1.016"/>
+<pad name="PL02" x="-11.811" y="6.604" drill="0.508" diameter="1.016"/>
+<pad name="PL01" x="-11.811" y="7.874" drill="0.508" diameter="1.016"/>
+<pad name="PL00" x="-11.811" y="9.144" drill="0.508" diameter="1.016"/>
+<pad name="PT00" x="-7.747" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT01" x="-6.477" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT02" x="-5.207" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT03" x="-3.937" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT04" x="-2.667" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT05" x="-1.397" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT06" x="-0.127" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT07" x="1.143" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT08" x="2.413" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT09" x="3.683" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT10" x="4.953" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PT11" x="6.223" y="11.811" drill="0.508" diameter="1.016"/>
+<pad name="PR14" x="11.811" y="-11.811" drill="0.508" diameter="1.016"/>
+<pad name="PR13" x="11.811" y="-10.541" drill="0.508" diameter="1.016"/>
+<pad name="PR12" x="11.811" y="-9.271" drill="0.508" diameter="1.016"/>
+<pad name="PR11" x="11.811" y="-8.001" drill="0.508" diameter="1.016"/>
+<pad name="PR10" x="11.811" y="-6.731" drill="0.508" diameter="1.016"/>
+<pad name="PR09" x="11.811" y="-5.461" drill="0.508" diameter="1.016"/>
+<pad name="PR08" x="11.811" y="-4.191" drill="0.508" diameter="1.016"/>
+<pad name="PR07" x="11.811" y="-2.921" drill="0.508" diameter="1.016"/>
+<pad name="PR06" x="11.811" y="-1.651" drill="0.508" diameter="1.016"/>
+<pad name="PR05" x="11.811" y="-0.381" drill="0.508" diameter="1.016"/>
+<pad name="PR04" x="11.811" y="0.889" drill="0.508" diameter="1.016"/>
+<pad name="PR03" x="11.811" y="2.159" drill="0.508" diameter="1.016"/>
+<pad name="PR02" x="11.811" y="3.429" drill="0.508" diameter="1.016"/>
+<pad name="PR01" x="11.811" y="4.699" drill="0.508" diameter="1.016"/>
+<pad name="PR00" x="11.811" y="5.969" drill="0.508" diameter="1.016"/>
+<pad name="LX01" x="-10.541" y="-1.016" drill="0.508" diameter="1.016"/>
+<pad name="LX02" x="-10.541" y="-2.286" drill="0.508" diameter="1.016"/>
 </package>
 <package name="VOCORE2-SMD">
-<smd name="PB00" x="1.0922" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB01" x="2.3622" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB02" x="3.6322" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB03" x="4.9022" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB04" x="6.1722" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB05" x="7.4422" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB06" x="8.7122" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB07" x="9.9822" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB08" x="11.2522" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB09" x="12.5222" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB12" x="13.7922" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB13" x="15.0622" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB10" x="16.3322" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PB11" x="17.6022" y="0" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PL15" x="0" y="2.9972" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL14" x="0" y="4.2672" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL13" x="0" y="5.5372" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL12" x="0" y="6.8072" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL11" x="0" y="8.0772" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL10" x="0" y="9.3472" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL09" x="0" y="10.6172" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL08" x="0" y="11.8872" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL07" x="0" y="13.1572" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL06" x="0" y="14.4272" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL05" x="0" y="15.6972" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL04" x="0" y="16.9672" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL03" x="0" y="18.2372" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL02" x="0" y="19.5072" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL01" x="0" y="20.7772" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PL00" x="0" y="22.0472" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PT00" x="5.1562" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT01" x="6.4262" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT02" x="7.6962" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT03" x="8.9662" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT04" x="10.2362" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT05" x="11.5062" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT06" x="12.7762" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT07" x="14.0462" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT08" x="15.3162" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT09" x="16.5862" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT10" x="17.8562" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PT11" x="19.1262" y="25.8064" dx="1.016" dy="2.032" layer="1" roundness="100"/>
-<smd name="PR14" x="25.8064" y="1.0922" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR13" x="25.8064" y="2.3622" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR12" x="25.8064" y="3.6322" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR11" x="25.8064" y="4.9022" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR10" x="25.8064" y="6.1722" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR09" x="25.8064" y="7.4422" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR08" x="25.8064" y="8.7122" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR07" x="25.8064" y="9.9822" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR06" x="25.8064" y="11.2522" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR05" x="25.8064" y="12.5222" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR04" x="25.8064" y="13.7922" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR03" x="25.8064" y="15.0622" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR02" x="25.8064" y="16.3322" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR01" x="25.8064" y="17.6022" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<smd name="PR00" x="25.8064" y="18.8722" dx="2.032" dy="1.016" layer="1" roundness="100"/>
-<pad name="LX02" x="2.3622" y="10.6172" drill="0.508" diameter="1.016"/>
-<pad name="LX01" x="2.3622" y="11.8872" drill="0.508" diameter="1.016"/>
-<wire x1="1.27" y1="5.588" x2="1.27" y2="8.89" width="0.127" layer="20"/>
-<wire x1="1.27" y1="8.89" x2="2.032" y2="9.652" width="0.127" layer="20" curve="-90"/>
-<wire x1="2.032" y1="9.652" x2="2.286" y2="9.652" width="0.127" layer="20"/>
-<wire x1="2.286" y1="9.652" x2="2.54" y2="9.652" width="0.127" layer="20"/>
-<wire x1="2.286" y1="9.652" x2="3.302" y2="10.668" width="0.127" layer="20" curve="90"/>
-<wire x1="3.302" y1="10.668" x2="3.302" y2="11.938" width="0.127" layer="20"/>
-<wire x1="3.302" y1="11.938" x2="2.54" y2="12.7" width="0.127" layer="20" curve="90"/>
-<wire x1="2.54" y1="12.7" x2="2.032" y2="12.7" width="0.127" layer="20"/>
-<wire x1="2.032" y1="12.7" x2="1.27" y2="13.462" width="0.127" layer="20" curve="-90"/>
-<wire x1="1.27" y1="13.462" x2="1.27" y2="23.114" width="0.127" layer="20"/>
-<wire x1="1.27" y1="23.114" x2="2.54" y2="24.384" width="0.127" layer="20" curve="-90"/>
-<wire x1="2.54" y1="24.384" x2="23.368" y2="24.384" width="0.127" layer="20"/>
-<wire x1="23.368" y1="24.384" x2="24.384" y2="23.368" width="0.127" layer="20" curve="-90"/>
-<wire x1="24.384" y1="23.368" x2="24.384" y2="2.286" width="0.127" layer="20"/>
-<wire x1="24.384" y1="2.286" x2="23.368" y2="1.27" width="0.127" layer="20" curve="-90"/>
-<wire x1="23.368" y1="1.27" x2="2.794" y2="1.27" width="0.127" layer="20"/>
-<wire x1="2.794" y1="1.27" x2="1.27" y2="2.794" width="0.127" layer="20" curve="-90"/>
-<wire x1="1.27" y1="2.794" x2="1.27" y2="5.588" width="0.127" layer="20"/>
-<wire x1="0" y1="0" x2="0" y2="2.032" width="0.127" layer="21"/>
-<wire x1="20.1168" y1="25.8064" x2="25.8064" y2="25.8064" width="0.127" layer="21"/>
-<wire x1="25.8064" y1="25.8064" x2="25.8064" y2="19.9136" width="0.127" layer="21"/>
-<wire x1="19.05" y1="0" x2="25.8064" y2="0" width="0.127" layer="21"/>
-<wire x1="25.8064" y1="0" x2="25.8064" y2="0.2032" width="0.127" layer="21"/>
-<wire x1="0" y1="23.1648" x2="0" y2="25.8064" width="0.127" layer="21"/>
-<wire x1="0" y1="25.8064" x2="4.064" y2="25.8064" width="0.127" layer="21"/>
-<wire x1="0" y1="0" x2="0.2032" y2="0" width="0.127" layer="21"/>
-<text x="0" y="27.94" size="1.27" layer="25" font="vector">&gt;NAME</text>
-<text x="25.4" y="-1.27" size="1.27" layer="27" font="vector" rot="R180">&gt;VALUE</text>
+<smd name="PB00" x="-11.811" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB01" x="-10.541" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB02" x="-9.271" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB03" x="-8.001" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB04" x="-6.731" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB05" x="-5.461" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB06" x="-4.191" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB07" x="-2.921" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB08" x="-1.651" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB09" x="-0.381" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB12" x="0.889" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB13" x="2.159" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB10" x="3.429" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PB11" x="4.699" y="-12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PL15" x="-12.9032" y="-9.906" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL14" x="-12.9032" y="-8.636" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL13" x="-12.9032" y="-7.366" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL12" x="-12.9032" y="-6.096" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL11" x="-12.9032" y="-4.826" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL10" x="-12.9032" y="-3.556" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL09" x="-12.9032" y="-2.286" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL08" x="-12.9032" y="-1.016" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL07" x="-12.9032" y="0.254" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL06" x="-12.9032" y="1.524" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL05" x="-12.9032" y="2.794" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL04" x="-12.9032" y="4.064" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL03" x="-12.9032" y="5.334" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL02" x="-12.9032" y="6.604" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL01" x="-12.9032" y="7.874" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PL00" x="-12.9032" y="9.144" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PT00" x="-7.747" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT01" x="-6.477" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT02" x="-5.207" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT03" x="-3.937" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT04" x="-2.667" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT05" x="-1.397" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT06" x="-0.127" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT07" x="1.143" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT08" x="2.413" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT09" x="3.683" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT10" x="4.953" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PT11" x="6.223" y="12.9032" dx="1.016" dy="2.032" layer="1" roundness="100"/>
+<smd name="PR14" x="12.9032" y="-11.811" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR13" x="12.9032" y="-10.541" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR12" x="12.9032" y="-9.271" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR11" x="12.9032" y="-8.001" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR10" x="12.9032" y="-6.731" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR09" x="12.9032" y="-5.461" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR08" x="12.9032" y="-4.191" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR07" x="12.9032" y="-2.921" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR06" x="12.9032" y="-1.651" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR05" x="12.9032" y="-0.381" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR04" x="12.9032" y="0.889" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR03" x="12.9032" y="2.159" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR02" x="12.9032" y="3.429" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR01" x="12.9032" y="4.699" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<smd name="PR00" x="12.9032" y="5.969" dx="2.032" dy="1.016" layer="1" roundness="100"/>
+<pad name="LX02" x="-10.541" y="-2.286" drill="0.508" diameter="1.016"/>
+<pad name="LX01" x="-10.541" y="-1.016" drill="0.508" diameter="1.016"/>
+<wire x1="-11.6332" y1="-10.1092" x2="-11.6332" y2="-4.0132" width="0.127" layer="20"/>
+<wire x1="-11.6332" y1="-4.0132" x2="-10.8712" y2="-3.2512" width="0.127" layer="20" curve="-90"/>
+<wire x1="-10.8712" y1="-3.2512" x2="-10.6172" y2="-3.2512" width="0.127" layer="20"/>
+<wire x1="-10.6172" y1="-3.2512" x2="-10.3632" y2="-3.2512" width="0.127" layer="20"/>
+<wire x1="-10.6172" y1="-3.2512" x2="-9.6012" y2="-2.2352" width="0.127" layer="20" curve="90"/>
+<wire x1="-9.6012" y1="-2.2352" x2="-9.6012" y2="-0.9652" width="0.127" layer="20"/>
+<wire x1="-9.6012" y1="-0.9652" x2="-10.3632" y2="-0.2032" width="0.127" layer="20" curve="90"/>
+<wire x1="-10.3632" y1="-0.2032" x2="-10.8712" y2="-0.2032" width="0.127" layer="20"/>
+<wire x1="-10.8712" y1="-0.2032" x2="-11.6332" y2="0.5588" width="0.127" layer="20" curve="-90"/>
+<wire x1="-11.6332" y1="0.5588" x2="-11.6332" y2="10.2108" width="0.127" layer="20"/>
+<wire x1="-11.6332" y1="10.2108" x2="-10.3632" y2="11.4808" width="0.127" layer="20" curve="-90"/>
+<wire x1="-10.3632" y1="11.4808" x2="10.4648" y2="11.4808" width="0.127" layer="20"/>
+<wire x1="10.4648" y1="11.4808" x2="11.4808" y2="10.4648" width="0.127" layer="20" curve="-90"/>
+<wire x1="11.4808" y1="10.4648" x2="11.4808" y2="-10.6172" width="0.127" layer="20"/>
+<wire x1="11.4808" y1="-10.6172" x2="10.4648" y2="-11.6332" width="0.127" layer="20" curve="-90"/>
+<wire x1="10.4648" y1="-11.6332" x2="-10.1092" y2="-11.6332" width="0.127" layer="20"/>
+<wire x1="-10.1092" y1="-11.6332" x2="-11.6332" y2="-10.1092" width="0.127" layer="20" curve="-90"/>
+<wire x1="-12.9032" y1="-12.9032" x2="-12.9032" y2="-10.8712" width="0.127" layer="21"/>
+<wire x1="7.2136" y1="12.9032" x2="12.9032" y2="12.9032" width="0.127" layer="21"/>
+<wire x1="12.9032" y1="12.9032" x2="12.9032" y2="7.0104" width="0.127" layer="21"/>
+<wire x1="6.1468" y1="-12.9032" x2="12.9032" y2="-12.9032" width="0.127" layer="21"/>
+<wire x1="12.9032" y1="-12.9032" x2="12.9032" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-12.9032" y1="10.2616" x2="-12.9032" y2="12.9032" width="0.127" layer="21"/>
+<wire x1="-12.9032" y1="12.9032" x2="-8.8392" y2="12.9032" width="0.127" layer="21"/>
+<wire x1="-12.9032" y1="-12.9032" x2="-12.7" y2="-12.9032" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -277,8 +274,6 @@
 <pin name="(GPIO#12)UART_TXD0" x="33.02" y="-53.34" length="middle" rot="R180"/>
 <pin name="(GPIO#13)UART_RXD0" x="33.02" y="-55.88" length="middle" rot="R180"/>
 <pin name="(GPIO#11,REFCKO,PERST_N)GPIO0" x="33.02" y="-68.58" length="middle" rot="R180"/>
-<text x="-27.94" y="76.2" size="1.778" layer="95">&gt;NAME</text>
-<text x="25.4" y="-81.28" size="1.778" layer="96" rot="R180">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
