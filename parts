@@ -1,0 +1,72 @@
+Partlist
+
+Exported from pager.brd at 3-2-2017 19:37 
+
+EAGLE Version 7.7.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value                Package            Library  Position (mm)         Orientation
+
+C1       100 nF               _0402              pager    (45.5 4)              R270
+C2       100 nF               _0402              pager    (45.5 10.5)           R270
+C3       100 nF               _0402              pager    (53 10.5)             R270
+C4       100 nF               _0402              pager    (53 4)                R270
+C5       100 nF               _0402              pager    (25 41.5)             R90
+C6       100 nF               _0402              pager    (25 35)               R270
+C7       100 nF               _0402              pager    (32 41.5)             R270
+C8       100 nF               _0402              pager    (32 35)               R270
+C9       18 pF                _0402              pager    (16 34.5)             R180
+C10      18 pF                _0402              pager    (11 34.5)             R0
+C11      4.7 uF cer           _0603              pager    (19.5 41.5)           R270
+C12      100 nF               _0402              pager    (3 33)                R90
+C13      100 nF               _0402              pager    (8.5 39)              R90
+Q1       25 MHz               ABM3               pager    (13.5 32)             R180
+Q2       SI2333DS             SOT23              pager    (6 33)                R270
+R1       10 k                 _0402              pager    (2.5 8)               R90
+R2       50                   _0402              pager    (51.5 5)              R90
+R3       50                   _0402              pager    (51.5 2.5)            R90
+R4       50                   _0402              pager    (51.5 11.5)           R90
+R5       50                   _0402              pager    (51.5 9)              R90
+R6       50                   _0402              pager    (44 11.5)             R90
+R7       50                   _0402              pager    (44 9)                R90
+R8       50                   _0402              pager    (44 5)                R90
+R9       50                   _0402              pager    (44 2.5)              R90
+R10      10 k                 _0402              pager    (62.5 3)              R90
+R11      50                   _0402              pager    (47 5)                R90
+R12      50                   _0402              pager    (47 2.5)              R90
+R13      50                   _0402              pager    (47 11.5)             R90
+R14      50                   _0402              pager    (47 9)                R90
+R15      50                   _0402              pager    (54.5 11.5)           R90
+R16      50                   _0402              pager    (54.5 9)              R90
+R17      50                   _0402              pager    (54.5 5)              R90
+R18      50                   _0402              pager    (54.5 2.5)            R90
+R19      50                   _0402              pager    (30.5 36)             R90
+R20      50                   _0402              pager    (30.5 33.5)           R90
+R21      50                   _0402              pager    (30.5 42.5)           R90
+R22      50                   _0402              pager    (30.5 40)             R90
+R23      50                   _0402              pager    (23.5 36)             R270
+R24      50                   _0402              pager    (23.5 33.5)           R90
+R25      10 k                 _0402              pager    (66 22.5)             R90
+R26      50                   _0402              pager    (23.5 42.5)           R90
+R27      50                   _0402              pager    (23.5 40)             R90
+R28      50                   _0402              pager    (26.5 42.5)           R90
+R29      50                   _0402              pager    (26.5 40)             R90
+R30      50                   _0402              pager    (26.5 36)             R90
+R31      50                   _0402              pager    (26.5 33.5)           R90
+R32      50                   _0402              pager    (33.5 42.5)           R90
+R33      50                   _0402              pager    (33.5 40)             R90
+R34      50                   _0402              pager    (33.5 36)             R90
+R35      50                   _0402              pager    (33.5 33.5)           R90
+R36      1M                   _0402              pager    (13.5 34.5)           R180
+R37      226                  _0402              pager    (8.5 41.5)            R0
+R38      40.2k                _0402              pager    (5 36.5)              R180
+SW1      CHS-01A1             CHS-01A1           pager    (4 14)                R0
+SW2      CHS-01A1             CHS-01A1           pager    (62.5 8.5)            R0
+TP1      TPTP16SQ             TP16SQ             pager    (5 7.5)               MR0
+TP2      TPTP16SQ             TP16SQ             pager    (59.5 15)             MR0
+U1       VOCORE2-SMD          VOCORE2-SMD        pager    (21 15)               R180
+U2       VOCORE2-SMD          VOCORE2-SMD        pager    (51 30)               R0
+U3       XR22800IL            QFN32              pager    (14.5 40)             R0
+X1       OMRON_XF2L-30REVERSE OMRON_XF2L-30      pager    (70 26.25)            R90
+X2       FCI_8193_MICRO_USB   FCI_MICRO_USB_8193 pager    (1.4 22.4)            R270
