@@ -12,7 +12,7 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -902,9 +902,9 @@ reflow soldering</description>
 <attribute name="NAME" x="21.7" y="37.6" size="1.016" layer="25" font="vector" ratio="14" rot="R270"/>
 <attribute name="VALUE" x="22.1664" y="37.27" size="0.508" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
-<element name="R25" library="pager" package="_0402" value="10 k" x="66" y="22.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.5061" y="18.43" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
-<attribute name="VALUE" x="67.3336" y="21.23" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<element name="R25" library="pager" package="_0402" value="10 k" x="72" y="13" smashed="yes" rot="R90">
+<attribute name="NAME" x="72.5061" y="8.93" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="73.3336" y="11.73" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R20" library="pager" package="_0402" value="50" x="30.5" y="33.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.7" y="31.7" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
@@ -1047,8 +1047,8 @@ reflow soldering</description>
 <contactref element="X1" pad="9"/>
 <contactref element="R25" pad="2"/>
 <contactref element="U2" pad="PR05"/>
-<wire x1="66" y1="23.008" x2="67.5" y2="23" width="0" layer="19" extent="1-1"/>
-<wire x1="64.1572" y1="29.619" x2="66" y2="23.008" width="0" layer="19" extent="1-1"/>
+<wire x1="72" y1="13.508" x2="67.5" y2="23" width="0" layer="19" extent="1-1"/>
+<wire x1="64.1572" y1="29.619" x2="72" y2="13.508" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DISP_RX0">
 <contactref element="X1" pad="8"/>
@@ -1124,8 +1124,8 @@ reflow soldering</description>
 <contactref element="U2" pad="PR13" route="any" routetag="G$1.GND"/>
 <contactref element="U2" pad="PT00" route="any" routetag="G$1.GND"/>
 <wire x1="64.1572" y1="35.969" x2="67.5" y2="33.5" width="0" layer="19" extent="1-1"/>
-<wire x1="66" y1="21.992" x2="64.1572" y2="20.729" width="0" layer="19" extent="1-1"/>
-<wire x1="67.5" y1="21.5" x2="66" y2="21.992" width="0" layer="19" extent="1-1"/>
+<wire x1="72" y1="12.492" x2="64.1572" y2="20.729" width="0" layer="19" extent="1-1"/>
+<wire x1="67.5" y1="21.5" x2="72" y2="12.492" width="0" layer="19" extent="1-1"/>
 <wire x1="67.5" y1="23.5" x2="67.5" y2="21.5" width="0" layer="19" extent="1-1"/>
 <wire x1="67.5" y1="19" x2="67.5" y2="21.5" width="0" layer="19" extent="1-1"/>
 <wire x1="54.5" y1="8.492" x2="54.429" y2="16.8428" width="0" layer="19" extent="1-1"/>
