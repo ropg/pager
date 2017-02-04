@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -720,6 +720,12 @@ reflow soldering</description>
 <smd name="PT11" x="6.223" y="13.1572" dx="0.8382" dy="1.524" layer="1" roundness="100"/>
 <text x="-12.7" y="13.97" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
 <text x="12.7" y="-13.97" size="1.016" layer="27" font="vector" ratio="14" rot="R180">&gt;VALUE</text>
+<polygon width="0.127" layer="41">
+<vertex x="-12.192" y="12.192"/>
+<vertex x="-12.192" y="-12.192"/>
+<vertex x="12.192" y="-12.192"/>
+<vertex x="12.192" y="12.192"/>
+</polygon>
 </package>
 <package name="0402">
 <description>&lt;b&gt;0402&lt;/b&gt;</description>
@@ -2416,6 +2422,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 </class>
 <class number="2" name="usb" width="0" drill="0">
 </class>
+<class number="3" name="power" width="0.254" drill="0">
+</class>
 </classes>
 <parts>
 <part name="X1" library="pager" deviceset="OMRON_XF2L-30" device="REVERSE"/>
@@ -2508,14 +2516,17 @@ High volt MLC; no solder stop between for higher isolation</description>
 <sheet>
 <plain>
 <text x="121.92" y="96.52" size="1.778" layer="97">in-rush limiting</text>
-<text x="68.58" y="33.02" size="1.778" layer="97">to display</text>
+<text x="66.04" y="30.48" size="1.778" layer="97">to display</text>
 <text x="-86.36" y="172.72" size="1.778" layer="97">TODO: Determine actual bias resistor values!</text>
 <text x="35.56" y="172.72" size="1.778" layer="97">TODO: Determine actual bias resistor values!</text>
 <text x="-63.5" y="152.4" size="1.778" layer="91" rot="R90">4 x 100 nF</text>
 <text x="58.42" y="152.4" size="1.778" layer="91" rot="R90">4 x 100 nF</text>
 </plain>
 <instances>
-<instance part="X1" gate="-1" x="71.12" y="25.4"/>
+<instance part="X1" gate="-1" x="71.12" y="25.4" smashed="yes">
+<attribute name="NAME" x="73.66" y="24.638" size="1.524" layer="95"/>
+<attribute name="VALUE" x="82.423" y="-28.702" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="X1" gate="-2" x="71.12" y="22.86"/>
 <instance part="X1" gate="-3" x="71.12" y="20.32"/>
 <instance part="X1" gate="-4" x="71.12" y="17.78"/>
@@ -2804,7 +2815,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="U2" gate="G$1" pin="(GPIO#46,PWM_CH1)UART_RXD1"/>
 </segment>
 </net>
-<net name="+5V" class="0">
+<net name="+5V" class="3">
 <segment>
 <pinref part="X1" gate="-26" pin="S"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
@@ -2844,7 +2855,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="3">
 <segment>
 <pinref part="X1" gate="-25" pin="S"/>
 <wire x1="68.58" y1="-35.56" x2="60.96" y2="-35.56" width="0.1524" layer="91"/>
@@ -3203,25 +3214,6 @@ High volt MLC; no solder stop between for higher isolation</description>
 <label x="35.56" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$10" class="0">
-<segment>
-<wire x1="63.5" y1="160.02" x2="63.5" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="160.02" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="160.02" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="160.02" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R28" gate="G$1" pin="2"/>
-<pinref part="R30" gate="G$1" pin="2"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<junction x="68.58" y="162.56"/>
-<junction x="73.66" y="162.56"/>
-<junction x="78.74" y="162.56"/>
-</segment>
-</net>
 <net name="ETH_2A_TX_N" class="1">
 <segment>
 <wire x1="-60.96" y1="142.24" x2="-53.34" y2="142.24" width="0.1524" layer="91"/>
@@ -3330,7 +3322,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="U1" gate="G$1" pin="MDI_TN_P0"/>
 </segment>
 </net>
-<net name="3.3V_USB" class="0">
+<net name="3.3_USB" class="0">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="127" y1="-12.7" x2="127" y2="-5.08" width="0.1524" layer="91"/>
@@ -3347,6 +3339,23 @@ High volt MLC; no solder stop between for higher isolation</description>
 <junction x="127" y="-5.08"/>
 <junction x="127" y="-2.54"/>
 <wire x1="127" y1="0" x2="124.46" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="63.5" y1="160.02" x2="63.5" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="162.56" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="162.56" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="160.02" x2="68.58" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="160.02" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="160.02" x2="78.74" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="R30" gate="G$1" pin="2"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<junction x="68.58" y="162.56"/>
+<junction x="73.66" y="162.56"/>
+<junction x="78.74" y="162.56"/>
 <label x="83.82" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
@@ -3403,7 +3412,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="X2" gate="G$1" pin="D+"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="N$27" class="3">
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
@@ -3531,6 +3540,18 @@ High volt MLC; no solder stop between for higher isolation</description>
 <junction x="-187.96" y="-22.86"/>
 <pinref part="SW1" gate="SW" pin="1"/>
 <wire x1="-177.8" y1="-22.86" x2="-177.8" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="WIFI_RESET" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PORST_N"/>
+<wire x1="-165.1" y1="91.44" x2="-167.64" y2="91.44" width="0.1524" layer="91"/>
+<label x="-167.64" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_WP,GPIO#22)MDI_TP_P3"/>
+<wire x1="33.02" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
+<label x="35.56" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
