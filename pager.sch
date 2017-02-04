@@ -2422,7 +2422,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 </class>
 <class number="2" name="usb" width="0" drill="0">
 </class>
-<class number="3" name="power" width="0.254" drill="0">
+<class number="3" name="power" width="0" drill="0">
 </class>
 </classes>
 <parts>
@@ -3178,7 +3178,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <label x="35.56" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_2A_RX_P" class="0">
+<net name="ETH_2A_RX_P" class="1">
 <segment>
 <wire x1="-60.96" y1="134.62" x2="-48.26" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="-48.26" y1="134.62" x2="-38.1" y2="134.62" width="0.1524" layer="91"/>
@@ -3196,7 +3196,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 <label x="35.56" y="66.04" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="ETH_2A_TX_P" class="0">
+<net name="ETH_2A_TX_P" class="1">
 <segment>
 <wire x1="-60.96" y1="147.32" x2="-58.42" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="147.32" x2="-38.1" y2="147.32" width="0.1524" layer="91"/>
