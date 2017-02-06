@@ -1866,9 +1866,9 @@ reflow soldering</description>
 <wire x1="47" y1="5.5" x2="48" y2="5.5" width="0.2" layer="1"/>
 <wire x1="48" y1="5.5" x2="48.5" y2="5" width="0.2" layer="1"/>
 <wire x1="48.5" y1="5" x2="48.5" y2="3" width="0.2" layer="1"/>
-<wire x1="48.5" y1="3" x2="50.05" y2="1.45" width="0.2" layer="1"/>
-<wire x1="50.05" y1="1.45" x2="55.05" y2="1.45" width="0.2" layer="1"/>
-<wire x1="55.05" y1="1.45" x2="55.5" y2="2" width="0.2" layer="1"/>
+<wire x1="48.5" y1="3" x2="50.125" y2="1.4" width="0.2" layer="1"/>
+<wire x1="50.125" y1="1.4" x2="55" y2="1.4" width="0.2" layer="1"/>
+<wire x1="55" y1="1.4" x2="55.5" y2="2" width="0.2" layer="1"/>
 <wire x1="55.5" y1="2" x2="55.5" y2="5" width="0.2" layer="1"/>
 <wire x1="55.5" y1="5" x2="55" y2="5.5" width="0.2" layer="1"/>
 <wire x1="55" y1="5.5" x2="54.508" y2="5.5" width="0.2" layer="1"/>
