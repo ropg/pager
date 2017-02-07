@@ -1429,6 +1429,8 @@ reflow soldering</description>
 <wire x1="7.5" y1="24.25" x2="6.75" y2="23.5" width="0.5" layer="1"/>
 <wire x1="47" y1="8.492" x2="49" y2="10.5" width="0" layer="19" extent="1-1"/>
 <via x="2.75" y="22.5" extent="1-16" drill="0.3048"/>
+<via x="9.25" y="34.5" extent="1-16" drill="0.3048"/>
+<via x="14.75" y="43.75" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="ETH_1B_TX_P" class="1">
 <contactref element="U3" pad="19"/>
