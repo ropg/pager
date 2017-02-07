@@ -1365,10 +1365,10 @@ reflow soldering</description>
 <via x="51.5" y="6.425" extent="1-16" drill="0.3048"/>
 <wire x1="51.5" y1="6.425" x2="52" y2="6.5" width="0.2" layer="1"/>
 <wire x1="52" y1="6.5" x2="53" y2="7.5" width="0.2" layer="1"/>
-<via x="67" y="40" extent="1-16" drill="0.3048"/>
+<via x="67" y="41.75" extent="1-16" drill="0.3048"/>
 <via x="41" y="12" extent="1-16" drill="0.3048"/>
-<via x="69" y="4.5" extent="1-16" drill="0.3048"/>
-<via x="69.5" y="41.5" extent="1-16" drill="0.3048"/>
+<via x="69.75" y="4" extent="1-16" drill="0.3048"/>
+<via x="71" y="42.75" extent="1-16" drill="0.3048"/>
 <via x="39.5" y="3" extent="1-16" drill="0.3048"/>
 <via x="36.5" y="2" extent="1-16" drill="0.3048"/>
 <via x="40" y="10" extent="1-16" drill="0.3048"/>
@@ -1377,10 +1377,10 @@ reflow soldering</description>
 <via x="41" y="43.5" extent="1-16" drill="0.3048"/>
 <via x="60.5" y="43" extent="1-16" drill="0.3048"/>
 <via x="75.5" y="35" extent="1-16" drill="0.3048"/>
-<via x="70.5" y="30" extent="1-16" drill="0.3048"/>
+<wire x1="70.5" y1="30" x2="70.5" y2="30" width="0" layer="19" extent="1-16"/>
 <via x="75.5" y="23.5" extent="1-16" drill="0.3048"/>
-<via x="70.5" y="20.5" extent="1-16" drill="0.3048"/>
-<via x="75" y="10" extent="1-16" drill="0.3048"/>
+<wire x1="70.5" y1="20.5" x2="70.5" y2="20.5" width="0" layer="19" extent="1-16"/>
+<via x="73" y="8" extent="1-16" drill="0.3048"/>
 <via x="68.5" y="11" extent="1-16" drill="0.3048"/>
 <via x="63" y="13.5" extent="1-16" drill="0.3048"/>
 <via x="36.5" y="15.5" extent="1-16" drill="0.3048"/>
@@ -1394,7 +1394,7 @@ reflow soldering</description>
 <via x="33.5" y="38" extent="1-16" drill="0.3048"/>
 <wire x1="15.21" y1="37.44" x2="15.21" y2="39.73" width="0.2" layer="1"/>
 <wire x1="15.21" y1="39.73" x2="15.54" y2="40.06" width="0.2" layer="1"/>
-<via x="75" y="12.5" extent="1-16" drill="0.3048"/>
+<via x="76" y="11" extent="1-16" drill="0.3048"/>
 <via x="75.5" y="17" extent="1-16" drill="0.3048"/>
 <via x="75.5" y="29.5" extent="1-16" drill="0.3048"/>
 <via x="59" y="3" extent="1-16" drill="0.3048"/>
@@ -1405,10 +1405,10 @@ reflow soldering</description>
 <via x="36" y="32" extent="1-16" drill="0.3048"/>
 <via x="35.25" y="35.4" extent="1-16" drill="0.3048"/>
 <via x="9.5" y="31.5" extent="1-16" drill="0.3048"/>
-<via x="14.5" y="32.5" extent="1-16" drill="0.3048"/>
-<via x="72" y="10" extent="1-16" drill="0.3048"/>
-<via x="66.5" y="36.5" extent="1-16" drill="0.3048"/>
-<via x="72" y="25.5" extent="1-16" drill="0.3048"/>
+<wire x1="14.5" y1="32.5" x2="14.5" y2="32.5" width="0" layer="19" extent="1-16"/>
+<via x="72.25" y="13.75" extent="1-16" drill="0.3048"/>
+<via x="66.5" y="38.5" extent="1-16" drill="0.3048"/>
+<wire x1="72" y1="25.5" x2="72" y2="25.5" width="0" layer="19" extent="1-16"/>
 <via x="66.275" y="29.5" extent="1-16" drill="0.3048"/>
 <via x="23.5" y="38" extent="1-16" drill="0.3048"/>
 <via x="28" y="40.5" extent="1-16" drill="0.3048"/>
@@ -1436,7 +1436,7 @@ reflow soldering</description>
 <via x="2.25" y="38" extent="1-16" drill="0.3048"/>
 <via x="10.5" y="40.5" extent="1-16" drill="0.3048"/>
 <wire x1="7.5" y1="24.25" x2="6.75" y2="23.5" width="0.5" layer="1"/>
-<via x="2.75" y="22.5" extent="1-16" drill="0.3048"/>
+<wire x1="2.75" y1="22.5" x2="2.75" y2="22.5" width="0" layer="19" extent="1-16"/>
 <via x="14.75" y="43.75" extent="1-16" drill="0.3048"/>
 <via x="5" y="32.25" extent="1-16" drill="0.3048"/>
 <via x="5.75" y="43.5" extent="1-16" drill="0.3048"/>
@@ -1445,6 +1445,9 @@ reflow soldering</description>
 <wire x1="47" y1="7" x2="49" y2="9" width="0.2" layer="16"/>
 <wire x1="49" y1="9" x2="49" y2="10.5" width="0.2" layer="16"/>
 <via x="1.5" y="27.25" extent="1-16" drill="0.3048"/>
+<via x="67.25" y="17.75" extent="1-16" drill="0.3048"/>
+<via x="67.25" y="34.75" extent="1-16" drill="0.3048"/>
+<via x="66.25" y="24.5" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="ETH_1B_TX_P" class="1">
 <contactref element="U3" pad="19"/>
