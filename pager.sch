@@ -1151,9 +1151,9 @@ Metric Code Size 4532</description>
 <description>TSOP-6 CAS E318G-02 ISSUE V (ON Semiconductor)</description>
 <circle x="-1.71" y="-0.5" radius="0.2136" width="0" layer="51"/>
 <wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.1016" layer="51"/>
-<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="1.7" y1="1" x2="1.7" y2="-1" width="0.2032" layer="21"/>
 <wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.1016" layer="51"/>
-<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.1016" layer="21"/>
+<wire x1="-1.7" y1="-0.8" x2="-1.7" y2="1" width="0.2032" layer="21"/>
 <rectangle x1="-1.2" y1="0.825" x2="-0.7" y2="1.5" layer="51"/>
 <rectangle x1="0.7" y1="0.825" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.825" layer="51"/>
@@ -1166,8 +1166,12 @@ Metric Code Size 4532</description>
 <smd name="4" x="0.95" y="1.125" dx="0.6" dy="0.95" layer="1" roundness="50" rot="R180"/>
 <smd name="5" x="0" y="1.125" dx="0.6" dy="0.95" layer="1" roundness="50" rot="R180"/>
 <smd name="6" x="-0.95" y="1.125" dx="0.6" dy="0.95" layer="1" roundness="50" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.016" layer="27" font="vector" ratio="14">&gt;VALUE</text>
+<text x="-2.54" y="2.14" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-2.54" y="-3.21" size="1.016" layer="27" font="vector" ratio="14">&gt;VALUE</text>
+<wire x1="1.7" y1="1" x2="1.5" y2="1" width="0.2032" layer="21"/>
+<wire x1="1.7" y1="-1" x2="1.5" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-1.7" y1="-0.8" x2="-1.5" y2="-1" width="0.2032" layer="21"/>
+<wire x1="-1.7" y1="1" x2="-1.5" y2="1" width="0.2032" layer="21"/>
 </package>
 <package name="FCI_MICRO_USB_8193">
 <wire x1="4" y1="-1.45" x2="-4" y2="-1.45" width="0.127" layer="51"/>
