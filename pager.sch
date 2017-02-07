@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -63,6 +63,9 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tMark" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bMark" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -86,7 +89,11 @@
 <layer number="110" name="bBPL" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="111" name="MPL" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="Schnitt" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Gravur" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="Bohrungen" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -98,8 +105,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -1136,6 +1147,28 @@ Metric Code Size 4532</description>
 <text x="-1.905" y="0.9525" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
 <text x="-1.905" y="-1.5875" size="0.508" layer="27" font="vector" ratio="10">&gt;VALUE</text>
 </package>
+<package name="TSOP-6">
+<description>TSOP-6 CAS E318G-02 ISSUE V (ON Semiconductor)</description>
+<circle x="-1.71" y="-0.5" radius="0.2136" width="0" layer="51"/>
+<wire x1="-1.5" y1="0.8" x2="1.5" y2="0.8" width="0.1016" layer="51"/>
+<wire x1="1.5" y1="0.8" x2="1.5" y2="-0.8" width="0.1016" layer="21"/>
+<wire x1="1.5" y1="-0.8" x2="-1.5" y2="-0.8" width="0.1016" layer="51"/>
+<wire x1="-1.5" y1="-0.8" x2="-1.5" y2="0.8" width="0.1016" layer="21"/>
+<rectangle x1="-1.2" y1="0.825" x2="-0.7" y2="1.5" layer="51"/>
+<rectangle x1="0.7" y1="0.825" x2="1.2" y2="1.5" layer="51"/>
+<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.825" layer="51"/>
+<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.825" layer="51"/>
+<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.825" layer="51"/>
+<rectangle x1="-0.25" y1="0.825" x2="0.25" y2="1.5" layer="51"/>
+<smd name="1" x="-0.95" y="-1.175" dx="0.6" dy="1.05" layer="1" roundness="50"/>
+<smd name="2" x="0" y="-1.125" dx="0.6" dy="0.95" layer="1" roundness="50"/>
+<smd name="3" x="0.95" y="-1.125" dx="0.6" dy="0.95" layer="1" roundness="50"/>
+<smd name="4" x="0.95" y="1.125" dx="0.6" dy="0.95" layer="1" roundness="50" rot="R180"/>
+<smd name="5" x="0" y="1.125" dx="0.6" dy="0.95" layer="1" roundness="50" rot="R180"/>
+<smd name="6" x="-0.95" y="1.125" dx="0.6" dy="0.95" layer="1" roundness="50" rot="R180"/>
+<text x="-2.54" y="2.54" size="1.016" layer="25" font="vector" ratio="14">&gt;NAME</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="27" font="vector" ratio="14">&gt;VALUE</text>
+</package>
 <package name="FCI_MICRO_USB_8193">
 <wire x1="4" y1="-1.45" x2="-4" y2="-1.45" width="0.127" layer="51"/>
 <wire x1="-4.25" y1="-0.815" x2="-4.25" y2="3.6" width="0.2" layer="21"/>
@@ -1371,16 +1404,40 @@ Metric Code Size 4532</description>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="USB_TVS">
+<wire x1="-1.016" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.651" y1="-1.27" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.651" y1="-1.27" x2="-1.651" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="-0.381" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.381" y1="1.016" x2="-0.381" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="1A" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="1B" x="10.16" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="2A" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="2B" x="10.16" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="0" y="-10.16" length="short" direction="pas" rot="R90"/>
+<pin name="VCC" x="0" y="10.16" length="short" direction="pas" rot="R270"/>
+<text x="-2.54" y="10.16" size="1.778" layer="95" rot="R180">&gt;NAME</text>
+</symbol>
 <symbol name="FCI_8193_MICRO_USB">
 <description>FCI Micro USB Type B 10118193</description>
-<wire x1="2.794" y1="7.62" x2="-2.286" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="7.62" x2="-2.286" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-5.08" x2="2.794" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.874" y1="12.7" x2="-2.286" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="12.7" x2="-2.286" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="-7.62" x2="7.874" y2="-7.62" width="0.254" layer="94"/>
 <pin name="D+" x="-5.08" y="5.08" visible="pad" length="short"/>
 <pin name="D-" x="-5.08" y="2.54" visible="pad" length="short"/>
 <pin name="GND" x="-5.08" y="-2.54" visible="pad" length="short"/>
-<pin name="VBUS" x="-5.08" y="0" visible="pad" length="short"/>
-<text x="1.27" y="-2.54" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="VBUS" x="-5.08" y="7.62" visible="pad" length="short"/>
+<text x="1.524" y="-1.27" size="2.54" layer="94" rot="R90">USB</text>
+<pin name="ID" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="SHIELD" x="5.08" y="-10.16" visible="pin" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2390,6 +2447,29 @@ High volt MLC; no solder stop between for higher isolation</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="IP4234CZ6" prefix="U">
+<description>NXP IP4234CZ6 - Single USB 2.0 ESD protection to IEC 61000-4-2 level 4</description>
+<gates>
+<gate name="G$1" symbol="USB_TVS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOP-6">
+<connects>
+<connect gate="G$1" pin="1A" pad="1"/>
+<connect gate="G$1" pin="1B" pad="3"/>
+<connect gate="G$1" pin="2A" pad="6"/>
+<connect gate="G$1" pin="2B" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_DIGIKEY" value="568-5869-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="FCI_8193_MICRO_USB" prefix="X">
 <gates>
 <gate name="G$1" symbol="FCI_8193_MICRO_USB" x="0" y="0"/>
@@ -2400,6 +2480,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 <connect gate="G$1" pin="D+" pad="D+"/>
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="ID" pad="ID"/>
+<connect gate="G$1" pin="SHIELD" pad="MNT1 MNT2 MNT3 MNT4 P$1 P$2"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
@@ -2469,7 +2551,6 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="C9" library="pager" deviceset="CAP_CERAMIC" device="_0402" value="18 pF"/>
 <part name="C10" library="pager" deviceset="CAP_CERAMIC" device="_0402" value="18 pF"/>
 <part name="GND11" library="pager" deviceset="GND" device=""/>
-<part name="GND12" library="pager" deviceset="GND" device=""/>
 <part name="C13" library="pager" deviceset="CAP_CERAMIC" device="_0402" value="100 nF"/>
 <part name="GND17" library="pager" deviceset="GND" device=""/>
 <part name="P+6" library="pager" deviceset="+5V" device=""/>
@@ -2510,12 +2591,18 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="GND1" library="pager" deviceset="GND" device=""/>
 <part name="SW1" library="pager" deviceset="CHS-01A1" device=""/>
 <part name="SW2" library="pager" deviceset="CHS-01A1" device=""/>
+<part name="U4" library="pager" deviceset="IP4234CZ6" device=""/>
 <part name="X2" library="pager" deviceset="FCI_8193_MICRO_USB" device=""/>
+<part name="GND12" library="pager" deviceset="GND" device=""/>
+<part name="GND18" library="pager" deviceset="GND" device=""/>
+<part name="C14" library="pager" deviceset="CAP_CERAMIC" device="_0402" value="100 nF"/>
+<part name="R39" library="pager" deviceset="RESISTOR" device="_0402" value="1M"/>
+<part name="GND19" library="pager" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="121.92" y="96.52" size="1.778" layer="97">in-rush limiting</text>
+<text x="134.62" y="104.14" size="1.778" layer="97">in-rush limiting</text>
 <text x="66.04" y="30.48" size="1.778" layer="97">to display</text>
 <text x="-86.36" y="172.72" size="1.778" layer="97">TODO: Determine actual bias resistor values!</text>
 <text x="35.56" y="172.72" size="1.778" layer="97">TODO: Determine actual bias resistor values!</text>
@@ -2685,15 +2772,14 @@ High volt MLC; no solder stop between for higher isolation</description>
 <attribute name="VALUE" x="104.902" y="6.223" size="1.778" layer="96"/>
 </instance>
 <instance part="GND11" gate="1" x="101.6" y="2.54"/>
-<instance part="GND12" gate="1" x="119.38" y="33.02"/>
 <instance part="C13" gate="G$1" x="190.5" y="-22.86" rot="R270"/>
 <instance part="GND17" gate="1" x="190.5" y="-33.02"/>
 <instance part="P+6" gate="1" x="190.5" y="-15.24"/>
-<instance part="C12" gate="G$1" x="132.08" y="81.28"/>
-<instance part="R38" gate="G$1" x="142.24" y="73.66" rot="R90"/>
-<instance part="GND15" gate="1" x="142.24" y="63.5"/>
-<instance part="P+4" gate="1" x="154.94" y="99.06"/>
-<instance part="Q2" gate="G$1" x="144.78" y="91.44" rot="MR90"/>
+<instance part="C12" gate="G$1" x="144.78" y="88.9"/>
+<instance part="R38" gate="G$1" x="154.94" y="81.28" rot="R90"/>
+<instance part="GND15" gate="1" x="154.94" y="71.12"/>
+<instance part="P+4" gate="1" x="167.64" y="106.68"/>
+<instance part="Q2" gate="G$1" x="157.48" y="99.06" rot="MR90"/>
 <instance part="R25" gate="G$1" x="45.72" y="-43.18" rot="R90"/>
 <instance part="GND7" gate="1" x="45.72" y="-53.34"/>
 <instance part="R20" gate="G$1" x="35.56" y="119.38" smashed="yes" rot="R90">
@@ -2780,7 +2866,13 @@ High volt MLC; no solder stop between for higher isolation</description>
 <instance part="GND1" gate="1" x="-187.96" y="-38.1"/>
 <instance part="SW1" gate="SW" x="-177.8" y="-10.16"/>
 <instance part="SW2" gate="SW" x="-50.8" y="-10.16"/>
-<instance part="X2" gate="G$1" x="110.49" y="45.72" rot="R180"/>
+<instance part="U4" gate="G$1" x="111.76" y="81.28"/>
+<instance part="X2" gate="G$1" x="81.28" y="78.74" rot="MR0"/>
+<instance part="GND12" gate="1" x="111.76" y="66.04"/>
+<instance part="GND18" gate="1" x="88.9" y="66.04"/>
+<instance part="C14" gate="G$1" x="71.12" y="58.42" rot="R270"/>
+<instance part="R39" gate="G$1" x="81.28" y="55.88" rot="R90"/>
+<instance part="GND19" gate="1" x="76.2" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -2849,8 +2941,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 <wire x1="190.5" y1="-17.78" x2="190.5" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="91.44" x2="154.94" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="91.44" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="99.06" x2="167.64" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="99.06" x2="167.64" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
@@ -2933,7 +3025,7 @@ High volt MLC; no solder stop between for higher isolation</description>
 </segment>
 <segment>
 <pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="68.58" x2="142.24" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="76.2" x2="154.94" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -3022,16 +3114,32 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="119.38" y1="35.56" x2="119.38" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="48.26" x2="115.57" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="GND"/>
-</segment>
-<segment>
 <wire x1="-35.56" y1="-25.4" x2="-43.18" y2="-25.4" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="-43.18" y1="-25.4" x2="-43.18" y2="-40.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="GND"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="86.36" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="76.2" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="111.76" y1="71.12" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="53.34" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+<wire x1="76.2" y1="48.26" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="1"/>
+<wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<junction x="76.2" y="48.26"/>
 </segment>
 </net>
 <net name="ETH_1B_TX_P" class="1">
@@ -3396,44 +3504,33 @@ High volt MLC; no solder stop between for higher isolation</description>
 <junction x="129.54" y="20.32"/>
 </segment>
 </net>
-<net name="USB_D_N" class="2">
-<segment>
-<pinref part="U3" gate="G$1" pin="USBD-"/>
-<wire x1="124.46" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="115.57" y1="43.18" x2="124.46" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="43.18" x2="124.46" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="D-"/>
-</segment>
-</net>
-<net name="USB_D_P" class="2">
-<segment>
-<pinref part="U3" gate="G$1" pin="USBD+"/>
-<wire x1="137.16" y1="40.64" x2="115.57" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="D+"/>
-</segment>
-</net>
-<net name="N$27" class="3">
+<net name="RAW_+5V" class="3">
 <segment>
 <pinref part="C12" gate="G$1" pin="1"/>
-<wire x1="129.54" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="81.28" x2="124.46" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="91.44" x2="124.46" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="91.44" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
-<junction x="124.46" y="81.28"/>
+<wire x1="142.24" y1="88.9" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="99.06" x2="137.16" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="124.46" y1="45.72" x2="115.57" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="99.06" x2="137.16" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="VCC"/>
+<wire x1="137.16" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="99.06" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="99.06" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="VBUS"/>
+<wire x1="91.44" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<junction x="111.76" y="99.06"/>
+<junction x="137.16" y="99.06"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="C12" gate="G$1" pin="2"/>
-<wire x1="137.16" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="88.9" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R38" gate="G$1" pin="2"/>
-<junction x="142.24" y="81.28"/>
-<wire x1="142.24" y1="81.28" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
+<junction x="154.94" y="88.9"/>
+<wire x1="154.94" y1="88.9" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="142.24" y1="81.28" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="88.9" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3_CORE" class="0">
@@ -3552,6 +3649,53 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="U2" gate="G$1" pin="(SD_WP,GPIO#22)MDI_TP_P3"/>
 <wire x1="33.02" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
 <label x="35.56" y="48.26" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USB_RAW_P" class="2">
+<segment>
+<pinref part="X2" gate="G$1" pin="D+"/>
+<pinref part="U4" gate="G$1" pin="1A"/>
+<wire x1="86.36" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_RAW_N" class="2">
+<segment>
+<pinref part="X2" gate="G$1" pin="D-"/>
+<wire x1="86.36" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="81.28" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="2A"/>
+<wire x1="96.52" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SHIELD" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="SHIELD"/>
+<wire x1="76.2" y1="68.58" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="66.04" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="R39" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="60.96" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
+<junction x="76.2" y="66.04"/>
+</segment>
+</net>
+<net name="USB_N" class="2">
+<segment>
+<pinref part="U4" gate="G$1" pin="2B"/>
+<wire x1="121.92" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="127" y1="78.74" x2="127" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="USBD-"/>
+<wire x1="127" y1="38.1" x2="137.16" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_P" class="2">
+<segment>
+<pinref part="U3" gate="G$1" pin="USBD+"/>
+<wire x1="137.16" y1="40.64" x2="129.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="40.64" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="1B"/>
+<wire x1="129.54" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
