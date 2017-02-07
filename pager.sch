@@ -3701,6 +3701,43 @@ High volt MLC; no solder stop between for higher isolation</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,68.58,22.86,X1-2,S,,,,"/>
+<approved hash="101,1,68.58,20.32,X1-3,S,,,,"/>
+<approved hash="101,1,68.58,17.78,X1-4,S,,,,"/>
+<approved hash="101,1,68.58,15.24,X1-5,S,,,,"/>
+<approved hash="101,1,68.58,12.7,X1-6,S,,,,"/>
+<approved hash="101,1,68.58,10.16,X1-7,S,,,,"/>
+<approved hash="101,1,68.58,7.62,X1-8,S,,,,"/>
+<approved hash="101,1,68.58,5.08,X1-9,S,,,,"/>
+<approved hash="101,1,68.58,2.54,X1-10,S,,,,"/>
+<approved hash="101,1,68.58,0,X1-11,S,,,,"/>
+<approved hash="101,1,68.58,-2.54,X1-12,S,,,,"/>
+<approved hash="101,1,68.58,-5.08,X1-13,S,,,,"/>
+<approved hash="101,1,68.58,-7.62,X1-14,S,,,,"/>
+<approved hash="101,1,68.58,-10.16,X1-15,S,,,,"/>
+<approved hash="101,1,68.58,-12.7,X1-16,S,,,,"/>
+<approved hash="101,1,68.58,-15.24,X1-17,S,,,,"/>
+<approved hash="101,1,68.58,-17.78,X1-18,S,,,,"/>
+<approved hash="101,1,68.58,-20.32,X1-19,S,,,,"/>
+<approved hash="101,1,68.58,-22.86,X1-20,S,,,,"/>
+<approved hash="101,1,68.58,-43.18,X1-28,S,,,,"/>
+<approved hash="101,1,68.58,-45.72,X1-29,S,,,,"/>
+<approved hash="104,1,-35.56,5.08,U2,+3.3VO,3.3_CORE,,,"/>
+<approved hash="104,1,-35.56,20.32,U2,+5.0VI,+5V,,,"/>
+<approved hash="202,1,-35.56,91.44,U2,PORST_N,,,,"/>
+<approved hash="104,1,-165.1,5.08,U1,+3.3VO,3.3_WIFI,,,"/>
+<approved hash="104,1,-165.1,20.32,U1,+5.0VI,+5V,,,"/>
+<approved hash="117,1,-35.56,-7.62,+1.8VO,,,,,"/>
+<approved hash="115,1,64.77,142.24,ETH_1B_RX_N,,,,,"/>
+<approved hash="115,1,62.23,147.32,ETH_1B_RX_P,,,,,"/>
+<approved hash="115,1,-77.47,129.54,ETH_2B_TX_N,,,,,"/>
+<approved hash="115,1,-74.93,134.62,ETH_2B_TX_P,,,,,"/>
+<approved hash="115,1,-72.39,142.24,ETH_2B_RX_N,,,,,"/>
+<approved hash="115,1,-69.85,147.32,ETH_2B_RX_P,,,,,"/>
+<approved hash="115,1,69.85,129.54,ETH_1B_TX_N,,,,,"/>
+<approved hash="115,1,67.31,134.62,ETH_1B_TX_P,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
