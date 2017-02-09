@@ -133,9 +133,9 @@
 <plain>
 <wire x1="78.4" y1="3" x2="78.4" y2="15.884228125" width="0" layer="20"/>
 <wire x1="78.4" y1="15.884228125" x2="77.964584375" y2="16.935415625" width="0" layer="20" curve="44.999915"/>
-<wire x1="77.964584375" y1="16.935415625" x2="77.58754375" y2="17.31245625" width="0" layer="20"/>
-<wire x1="77.58754375" y1="17.31245625" x2="77.4" y2="17.765225" width="0" layer="20" curve="-45.00028"/>
-<wire x1="77.4" y1="17.765225" x2="77.4" y2="34.165684375" width="0" layer="20"/>
+<wire x1="77.964584375" y1="16.935415625" x2="77.83754375" y2="17.06245625" width="0" layer="20"/>
+<wire x1="77.83754375" y1="17.06245625" x2="77.4" y2="18.015225" width="0" layer="20" curve="-45.00028"/>
+<wire x1="77.4" y1="18.015225" x2="77.4" y2="34.165684375" width="0" layer="20"/>
 <wire x1="77.4" y1="34.165684375" x2="77.98995" y2="35.58995" width="0" layer="20" curve="-45"/>
 <wire x1="77.98995" y1="35.58995" x2="78.4" y2="36.5799" width="0" layer="20" curve="45"/>
 <wire x1="78.4" y1="36.5799" x2="78.4" y2="41.8" width="0" layer="20"/>
@@ -947,9 +947,9 @@ reflow soldering</description>
 <attribute name="NAME" x="28.3" y="35" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="27.8336" y="34.73" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
-<element name="R25" library="pager" package="_0402" value="10 k" x="65.5" y="13.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="66.0061" y="9.43" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
-<attribute name="VALUE" x="66.8336" y="12.23" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
+<element name="R25" library="pager" package="_0402" value="10 k" x="65.75" y="13.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.2561" y="9.43" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="VALUE" x="67.0836" y="12.23" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R20" library="pager" package="_0402" value="50" x="33.5" y="33.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.3" y="31.9" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
@@ -1105,7 +1105,7 @@ reflow soldering</description>
 <contactref element="X1" pad="9"/>
 <contactref element="R25" pad="2"/>
 <contactref element="U2" pad="PR05"/>
-<wire x1="65.5" y1="14.008" x2="65.325" y2="14.183" width="0.2" layer="1"/>
+<wire x1="65.75" y1="14.008" x2="65.325" y2="14.183" width="0.2" layer="1"/>
 <wire x1="65.325" y1="14.183" x2="65.325" y2="21.825" width="0.2" layer="1"/>
 <wire x1="65.325" y1="21.825" x2="66.5" y2="23" width="0.2" layer="1"/>
 <wire x1="66.5" y1="23" x2="67.5" y2="23" width="0.2" layer="1"/>
@@ -1795,7 +1795,6 @@ reflow soldering</description>
 <wire x1="21" y1="38.5" x2="21" y2="41" width="0.2" layer="1"/>
 <wire x1="21" y1="41" x2="21.492" y2="41" width="0.2" layer="1"/>
 <wire x1="21.492" y1="41" x2="23.5" y2="43.008" width="0.2" layer="1"/>
-<wire x1="20" y1="42.262" x2="19.262" y2="42.262" width="0.2" layer="1"/>
 <wire x1="18.875" y1="39.7" x2="18.07" y2="39.7" width="0.2" layer="1"/>
 <wire x1="23.5" y1="43.008" x2="23.508" y2="43.008" width="0.2" layer="1"/>
 <wire x1="23.508" y1="43.008" x2="24.125" y2="43.6" width="0.2" layer="1"/>
@@ -1823,9 +1822,14 @@ reflow soldering</description>
 <wire x1="11.525" y1="40.475" x2="11.525" y2="40.8" width="0.2" layer="16"/>
 <via x="11.525" y="40.8" extent="1-16" drill="0.3048"/>
 <wire x1="11.535" y1="40.79" x2="12.94" y2="40.79" width="0.2" layer="1"/>
-<wire x1="20" y1="42.262" x2="21" y2="41" width="0" layer="19" extent="1-1"/>
-<wire x1="18.875" y1="39.7" x2="21" y2="38.5" width="0" layer="19" extent="1-1"/>
-<wire x1="18.06" y1="39.71" x2="18.07" y2="39.7" width="0" layer="19" extent="1-1"/>
+<wire x1="20" y1="42.262" x2="19.262" y2="42.262" width="0.2" layer="1"/>
+<wire x1="19.262" y1="42.262" x2="19" y2="42" width="0.2" layer="1"/>
+<via x="19" y="42" extent="1-16" drill="0.3048"/>
+<wire x1="19" y1="42" x2="19" y2="39.825" width="0.2" layer="16"/>
+<wire x1="19" y1="39.825" x2="18.875" y2="39.7" width="0.2" layer="16"/>
+<wire x1="21" y1="41" x2="21" y2="41.262" width="0.2" layer="1"/>
+<wire x1="21" y1="41.262" x2="20" y2="42.262" width="0.2" layer="1"/>
+<wire x1="18.07" y1="39.7" x2="18.06" y2="39.71" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="R37" pad="2"/>
@@ -2136,6 +2140,12 @@ reflow soldering</description>
 <wire x1="10.4262" y1="37.5770125" x2="12.13709375" y2="39.28790625" width="0.2" layer="1"/>
 <wire x1="12.13709375" y1="39.28790625" x2="12.93790625" y2="39.28790625" width="0.2" layer="1"/>
 <wire x1="12.93790625" y1="39.28790625" x2="12.94" y2="39.29" width="0.2" layer="1"/>
+</signal>
+<signal name="N$2">
+<wire x1="17.5" y1="28.25" x2="17.5" y2="28.5" width="0.6" layer="1"/>
+<wire x1="17.5" y1="28.25" x2="17.5" y2="29" width="0.5" layer="1"/>
+<wire x1="17.5" y1="29" x2="17.45" y2="29.05" width="0.5" layer="1"/>
+<wire x1="17.45" y1="29.05" x2="17.45" y2="29.125" width="0.5" layer="1"/>
 </signal>
 </signals>
 </board>
