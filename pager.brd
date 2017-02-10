@@ -1159,10 +1159,10 @@ reflow soldering</description>
 <wire x1="8.25" y1="33.9875" x2="8.25" y2="33" width="0.8" layer="16"/>
 <wire x1="8.25" y1="33" x2="8.25" y2="31.25" width="0.8" layer="16"/>
 <wire x1="8.25" y1="31.25" x2="9.5" y2="30" width="0.8" layer="16"/>
-<wire x1="9.5" y1="30" x2="18" y2="30" width="0.8" layer="16"/>
-<wire x1="18" y1="30" x2="19" y2="30" width="0.8" layer="16"/>
-<wire x1="19" y1="30" x2="20" y2="30" width="0.8" layer="16"/>
-<wire x1="20" y1="30" x2="34.75" y2="30" width="0.8" layer="16"/>
+<wire x1="9.5" y1="30" x2="18.25" y2="30" width="0.8" layer="16"/>
+<wire x1="18.25" y1="30" x2="19.25" y2="30" width="0.8" layer="16"/>
+<wire x1="19.25" y1="30" x2="20.25" y2="30" width="0.8" layer="16"/>
+<wire x1="20.25" y1="30" x2="34.75" y2="30" width="0.8" layer="16"/>
 <wire x1="34.75" y1="30" x2="36.5" y2="28.25" width="0.8" layer="16"/>
 <wire x1="36.5" y1="28.25" x2="36.5" y2="26.5" width="0.8" layer="16"/>
 <wire x1="36.5" y1="26.5" x2="38.5" y2="24.5" width="0.8" layer="16"/>
@@ -1197,19 +1197,19 @@ reflow soldering</description>
 <wire x1="52.5" y1="15" x2="52.5" y2="16.25" width="0.8" layer="1"/>
 <wire x1="52.5" y1="15" x2="52.5" y2="15.2875" width="0.8" layer="1"/>
 <wire x1="52.5" y1="15.2875" x2="53.1625" y2="15.95" width="0.8" layer="1"/>
-<via x="18" y="30" extent="1-16" drill="0.3048"/>
-<via x="19" y="30" extent="1-16" drill="0.3048"/>
-<via x="20" y="30" extent="1-16" drill="0.3048"/>
+<via x="18.25" y="30" extent="1-16" drill="0.3048"/>
+<via x="19.25" y="30" extent="1-16" drill="0.3048"/>
+<via x="20.25" y="30" extent="1-16" drill="0.3048"/>
 <wire x1="18.841" y1="28.1572" x2="19" y2="28.3162" width="0.8" layer="1"/>
 <wire x1="19" y1="28.3162" x2="19" y2="28.75" width="0.8" layer="1"/>
-<wire x1="19" y1="28.75" x2="19" y2="30" width="0.8" layer="1"/>
-<wire x1="18" y1="30" x2="19.5" y2="30" width="0.8" layer="1"/>
-<wire x1="19.5" y1="30" x2="20" y2="30" width="0.8" layer="1"/>
-<wire x1="20" y1="30" x2="20" y2="28.25" width="0.8" layer="1"/>
+<wire x1="19" y1="28.75" x2="19.25" y2="30" width="0.8" layer="1"/>
+<wire x1="18.25" y1="30" x2="19.5" y2="30" width="0.8" layer="1"/>
+<wire x1="19.5" y1="30" x2="20.25" y2="30" width="0.8" layer="1"/>
+<wire x1="20.25" y1="30" x2="20" y2="28.25" width="0.8" layer="1"/>
 <wire x1="20" y1="28.25" x2="19.5" y2="28.75" width="0.8" layer="1"/>
 <wire x1="19.5" y1="28.75" x2="19.5" y2="30" width="0.8" layer="1"/>
-<wire x1="18" y1="30" x2="18" y2="29.75" width="0.8" layer="1"/>
-<wire x1="18" y1="29.75" x2="19" y2="28.75" width="0.8" layer="1"/>
+<wire x1="18.25" y1="30" x2="18.25" y2="29.75" width="0.8" layer="1"/>
+<wire x1="18.25" y1="29.75" x2="19" y2="28.75" width="0.8" layer="1"/>
 <wire x1="8.25" y1="37" x2="8.25" y2="39.75" width="0.8" layer="1"/>
 <wire x1="8.25" y1="39.75" x2="8.5" y2="40" width="0.8" layer="1"/>
 <wire x1="12.94" y1="38.79" x2="12.9" y2="38.75" width="0.2" layer="1"/>
@@ -1233,7 +1233,8 @@ reflow soldering</description>
 <wire x1="8.25" y1="35.85" x2="8.1" y2="36" width="0.8" layer="1"/>
 <wire x1="8.25" y1="35" x2="7.25" y2="34" width="0.8" layer="16"/>
 <wire x1="7.25" y1="34" x2="8.25" y2="33" width="0.8" layer="16"/>
-<wire x1="8.5" y1="40" x2="9.25" y2="39.992" width="0" layer="19" extent="1-1"/>
+<wire x1="9.25" y1="39.992" x2="8.508" y2="39.992" width="0.8" layer="1"/>
+<wire x1="8.508" y1="39.992" x2="8.5" y2="40" width="0.8" layer="1"/>
 </signal>
 <signal name="GND" class="3">
 <contactref element="X1" pad="6"/>
@@ -1443,6 +1444,10 @@ reflow soldering</description>
 <via x="67.25" y="17.75" extent="1-16" drill="0.3048"/>
 <via x="67.25" y="34.75" extent="1-16" drill="0.3048"/>
 <via x="66.25" y="24.5" extent="1-16" drill="0.3048"/>
+<wire x1="17.5" y1="28.25" x2="17.5" y2="28.5" width="0.6" layer="1"/>
+<wire x1="17.5" y1="28.25" x2="17.5" y2="29" width="0.5" layer="1"/>
+<wire x1="17.5" y1="29" x2="16.95" y2="29.55" width="0.5" layer="1"/>
+<wire x1="16.95" y1="29.55" x2="17.45" y2="29.125" width="0.5" layer="1"/>
 </signal>
 <signal name="ETH_1B_TX_P" class="1">
 <contactref element="U3" pad="19"/>
@@ -2140,12 +2145,6 @@ reflow soldering</description>
 <wire x1="10.4262" y1="37.5770125" x2="12.13709375" y2="39.28790625" width="0.2" layer="1"/>
 <wire x1="12.13709375" y1="39.28790625" x2="12.93790625" y2="39.28790625" width="0.2" layer="1"/>
 <wire x1="12.93790625" y1="39.28790625" x2="12.94" y2="39.29" width="0.2" layer="1"/>
-</signal>
-<signal name="N$2">
-<wire x1="17.5" y1="28.25" x2="17.5" y2="28.5" width="0.6" layer="1"/>
-<wire x1="17.5" y1="28.25" x2="17.5" y2="29" width="0.5" layer="1"/>
-<wire x1="17.5" y1="29" x2="17.45" y2="29.05" width="0.5" layer="1"/>
-<wire x1="17.45" y1="29.05" x2="17.45" y2="29.125" width="0.5" layer="1"/>
 </signal>
 </signals>
 </board>
