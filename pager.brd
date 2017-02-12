@@ -1247,11 +1247,23 @@ reflow soldering</description>
 <wire x1="9.25" y1="34" x2="8.25" y2="34" width="0.8" layer="16"/>
 <wire x1="8.25" y1="34" x2="8.75" y2="34" width="0.8" layer="16"/>
 <wire x1="8.75" y1="34" x2="8.75" y2="35" width="0.8" layer="16"/>
-<wire x1="9.25" y1="34" x2="9.25" y2="33" width="0.8" layer="16"/>
 <wire x1="9.25" y1="32" x2="9.25" y2="33" width="0.8" layer="16"/>
 <wire x1="9.25" y1="33" x2="8.75" y2="33" width="0.8" layer="16"/>
 <wire x1="8.75" y1="33" x2="8.75" y2="33.5" width="0.8" layer="16"/>
 <wire x1="12" y1="38.25" x2="8.75" y2="35" width="0.8" layer="16"/>
+<wire x1="8.25" y1="36" x2="9.25" y2="35" width="0.8" layer="1"/>
+<wire x1="9.25" y1="35" x2="9.25" y2="40" width="0.8" layer="1"/>
+<wire x1="9.25" y1="40" x2="9" y2="40" width="0.8" layer="1"/>
+<wire x1="9" y1="40" x2="8.75" y2="39.75" width="0.8" layer="1"/>
+<wire x1="8.75" y1="39.75" x2="8.75" y2="36" width="0.8" layer="1"/>
+<wire x1="9.25" y1="34" x2="9.25" y2="33" width="0.8" layer="16"/>
+<wire x1="9.25" y1="33" x2="11.5" y2="30.75" width="0.8" layer="16"/>
+<wire x1="11.5" y1="30.75" x2="28.5" y2="30.75" width="0.8" layer="16"/>
+<wire x1="28.5" y1="30.75" x2="28.75" y2="30.5" width="0.8" layer="16"/>
+<wire x1="28.75" y1="30.5" x2="33.25" y2="30.5" width="0.8" layer="16"/>
+<wire x1="33.25" y1="30.5" x2="33.5" y2="30.25" width="0.8" layer="16"/>
+<wire x1="8.25" y1="34" x2="8.25" y2="33.5" width="0.8" layer="16"/>
+<wire x1="8.25" y1="33.5" x2="11.25" y2="30.5" width="0.8" layer="16"/>
 </signal>
 <signal name="GND" class="3">
 <contactref element="X1" pad="6"/>
@@ -1337,9 +1349,9 @@ reflow soldering</description>
 <wire x1="25.5" y1="33" x2="23.508" y2="33" width="0.2" layer="1"/>
 <wire x1="23.508" y1="33" x2="23.5" y2="32.992" width="0.2" layer="1"/>
 <wire x1="26.5" y1="32.992" x2="26.5" y2="32" width="0.2" layer="1"/>
-<wire x1="26.5" y1="32" x2="27" y2="31.5" width="0.2" layer="1"/>
-<via x="27" y="31.5" extent="1-16" drill="0.25" diameter="0.6"/>
-<wire x1="27" y1="31.5" x2="28" y2="31.5" width="0.2" layer="16"/>
+<wire x1="26.5" y1="32" x2="26.25" y2="31.75" width="0.2" layer="1"/>
+<via x="26.25" y="31.75" extent="1-16" drill="0.25" diameter="0.6"/>
+<wire x1="26.25" y1="31.75" x2="28" y2="31.5" width="0.2" layer="16"/>
 <wire x1="28" y1="31.5" x2="29.5" y2="33" width="0.2" layer="16"/>
 <via x="29.5" y="33" extent="1-16" drill="0.25" diameter="0.6"/>
 <wire x1="29.5" y1="33" x2="30.492" y2="33" width="0.2" layer="1"/>
@@ -1426,7 +1438,7 @@ reflow soldering</description>
 <via x="23.5" y="38" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="28" y="40.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="31.625" y="43.75" extent="1-16" drill="0.25" diameter="0.6"/>
-<via x="23.5" y="31.5" extent="1-16" drill="0.25" diameter="0.6"/>
+<via x="22.25" y="32" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="49" y="10.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="46.3" y="12.725" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="54.5" y="6.5" extent="1-16" drill="0.25" diameter="0.6"/>
