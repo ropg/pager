@@ -1099,6 +1099,7 @@ reflow soldering</description>
 <attribute name="NAME" x="3.42" y="16.3436" size="1.016" layer="25" font="vector" ratio="14" rot="R180"/>
 <attribute name="VALUE" x="5.77" y="16.8336" size="0.508" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
+<element name="R40" library="pager" package="_0402" value="4.7k" x="7.75" y="30.25" rot="R270"/>
 </elements>
 <signals>
 <signal name="DISP_RESET">
@@ -1157,9 +1158,8 @@ reflow soldering</description>
 <via x="8.25" y="34" extent="1-16" drill="0.25" diameter="0.6"/>
 <wire x1="8.25" y1="34" x2="8.25" y2="33.9875" width="0.8" layer="16"/>
 <wire x1="8.25" y1="33.9875" x2="8.25" y2="33" width="0.8" layer="16"/>
-<wire x1="8.25" y1="33" x2="8.25" y2="31.25" width="0.8" layer="16"/>
-<wire x1="8.25" y1="31.25" x2="9.5" y2="30" width="0.8" layer="16"/>
-<wire x1="9.5" y1="30" x2="18.25" y2="30" width="0.8" layer="16"/>
+<wire x1="8.25" y1="33" x2="11" y2="30" width="0.8" layer="16"/>
+<wire x1="11" y1="30" x2="18.25" y2="30" width="0.8" layer="16"/>
 <wire x1="18.25" y1="30" x2="19.25" y2="30" width="0.8" layer="16"/>
 <wire x1="19.25" y1="30" x2="20.25" y2="30" width="0.8" layer="16"/>
 <wire x1="20.25" y1="30" x2="34.75" y2="30" width="0.8" layer="16"/>
@@ -1385,7 +1385,7 @@ reflow soldering</description>
 <via x="36.5" y="15.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="36.5" y="7.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="13.5" y="28.5" extent="1-16" drill="0.25" diameter="0.6"/>
-<via x="8" y="29.25" extent="1-16" drill="0.25" diameter="0.6"/>
+<via x="7" y="31.75" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="34.5" y="27" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="37.5" y="12" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="36.5" y="39" extent="1-16" drill="0.25" diameter="0.6"/>
@@ -1403,7 +1403,6 @@ reflow soldering</description>
 <via x="35.725" y="19.15" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="36" y="32" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="35.25" y="35.4" extent="1-16" drill="0.25" diameter="0.6"/>
-<via x="9.5" y="31.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="72.25" y="13.75" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="66.5" y="38.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="66.275" y="29.5" extent="1-16" drill="0.25" diameter="0.6"/>
@@ -1448,6 +1447,9 @@ reflow soldering</description>
 <wire x1="17.5" y1="28.25" x2="17.5" y2="29" width="0.5" layer="1"/>
 <wire x1="17.5" y1="29" x2="16.95" y2="29.55" width="0.5" layer="1"/>
 <wire x1="16.95" y1="29.55" x2="17.45" y2="29.125" width="0.5" layer="1"/>
+<contactref element="R40" pad="1"/>
+<wire x1="7.75" y1="30.758" x2="7.75" y2="31" width="0.2" layer="1"/>
+<wire x1="7.75" y1="31" x2="7" y2="31.75" width="0.2" layer="1"/>
 </signal>
 <signal name="ETH_1B_TX_P" class="1">
 <contactref element="U3" pad="19"/>
@@ -2066,7 +2068,8 @@ reflow soldering</description>
 <wire x1="7.309" y1="19.191" x2="6.5" y2="20" width="0.2" layer="1"/>
 <via x="6.5" y="20" extent="1-16" drill="0.25" diameter="0.6"/>
 <wire x1="6.5" y1="20" x2="6.5" y2="25.5" width="0.2" layer="16"/>
-<wire x1="6.5" y1="25.5" x2="10.2" y2="29.2" width="0.2" layer="16"/>
+<wire x1="6.5" y1="25.5" x2="8.625" y2="27.625" width="0.2" layer="16"/>
+<wire x1="8.75" y1="27.75" x2="10.2" y2="29.2" width="0.2" layer="16"/>
 <wire x1="10.2" y1="29.2" x2="34.5" y2="29.2" width="0.2" layer="16"/>
 <wire x1="34.5" y1="29.2" x2="35.65" y2="28.05" width="0.2" layer="16"/>
 <wire x1="35.65" y1="28.05" x2="35.65" y2="21.15" width="0.2" layer="16"/>
@@ -2074,6 +2077,12 @@ reflow soldering</description>
 <via x="35.825" y="20.975" extent="1-16" drill="0.25" diameter="0.6"/>
 <wire x1="35.825" y1="20.975" x2="37.7318" y2="20.975" width="0.2" layer="1"/>
 <wire x1="37.7318" y1="20.975" x2="37.8428" y2="20.864" width="0.2" layer="1"/>
+<contactref element="R40" pad="2"/>
+<wire x1="7.75" y1="29.742" x2="8.508" y2="29.742" width="0.2" layer="1"/>
+<wire x1="8.508" y1="29.742" x2="8.75" y2="29.5" width="0.2" layer="1"/>
+<via x="8.75" y="29.5" extent="1-16" drill="0.25" diameter="0.6"/>
+<wire x1="8.75" y1="29.5" x2="8.75" y2="27.75" width="0.2" layer="16"/>
+<wire x1="8.75" y1="27.75" x2="8.625" y2="27.625" width="0.2" layer="16"/>
 </signal>
 <signal name="N$1">
 </signal>

@@ -2602,6 +2602,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="C14" library="pager" deviceset="CAP_CERAMIC" device="_0402" value="100 nF"/>
 <part name="R39" library="pager" deviceset="RESISTOR" device="_0402" value="1M"/>
 <part name="GND19" library="pager" deviceset="GND" device=""/>
+<part name="R40" library="pager" deviceset="RESISTOR" device="_0402" value="4.7k"/>
+<part name="GND20" library="pager" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2877,6 +2879,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 <instance part="C14" gate="G$1" x="71.12" y="58.42" rot="R270"/>
 <instance part="R39" gate="G$1" x="81.28" y="55.88" rot="R90"/>
 <instance part="GND19" gate="1" x="76.2" y="43.18"/>
+<instance part="R40" gate="G$1" x="40.64" y="40.64" rot="R90"/>
+<instance part="GND20" gate="1" x="40.64" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -3144,6 +3148,11 @@ High volt MLC; no solder stop between for higher isolation</description>
 <wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
 <junction x="76.2" y="48.26"/>
+</segment>
+<segment>
+<pinref part="R40" gate="G$1" pin="1"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="40.64" y1="35.56" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ETH_1B_TX_P" class="1">
@@ -3651,8 +3660,12 @@ High volt MLC; no solder stop between for higher isolation</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="(SD_WP,GPIO#22)MDI_TP_P3"/>
-<wire x1="33.02" y1="48.26" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
-<label x="35.56" y="48.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="33.02" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<label x="45.72" y="48.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="R40" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="45.72" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<junction x="40.64" y="48.26"/>
 </segment>
 </net>
 <net name="USB_RAW_P" class="2">
@@ -3733,14 +3746,14 @@ High volt MLC; no solder stop between for higher isolation</description>
 <approved hash="104,1,-165.1,5.08,U1,+3.3VO,3.3_WIFI,,,"/>
 <approved hash="104,1,-165.1,20.32,U1,+5.0VI,+5V,,,"/>
 <approved hash="117,1,-35.56,-7.62,+1.8VO,,,,,"/>
-<approved hash="115,1,64.77,142.24,ETH_1B_RX_N,,,,,"/>
-<approved hash="115,1,62.23,147.32,ETH_1B_RX_P,,,,,"/>
-<approved hash="115,1,-77.47,129.54,ETH_2B_TX_N,,,,,"/>
-<approved hash="115,1,-74.93,134.62,ETH_2B_TX_P,,,,,"/>
 <approved hash="115,1,-72.39,142.24,ETH_2B_RX_N,,,,,"/>
 <approved hash="115,1,-69.85,147.32,ETH_2B_RX_P,,,,,"/>
 <approved hash="115,1,69.85,129.54,ETH_1B_TX_N,,,,,"/>
 <approved hash="115,1,67.31,134.62,ETH_1B_TX_P,,,,,"/>
+<approved hash="115,1,64.77,142.24,ETH_1B_RX_N,,,,,"/>
+<approved hash="115,1,62.23,147.32,ETH_1B_RX_P,,,,,"/>
+<approved hash="115,1,-77.47,129.54,ETH_2B_TX_N,,,,,"/>
+<approved hash="115,1,-74.93,134.62,ETH_2B_TX_P,,,,,"/>
 </errors>
 </schematic>
 </drawing>
