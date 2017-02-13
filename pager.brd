@@ -151,9 +151,9 @@
 <hole x="74.4" y="40.8" drill="3.2"/>
 <hole x="74.4" y="4" drill="3.2"/>
 <text x="1" y="14" size="1.016" layer="21" font="vector" ratio="14">RW</text>
-<text x="69.25" y="11.75" size="1.016" layer="21" font="vector" ratio="14">RW</text>
+<text x="70" y="13.25" size="1.016" layer="21" font="vector" ratio="14">RW</text>
 <text x="1" y="7" size="1.016" layer="21" font="vector" ratio="14">RO</text>
-<text x="69.25" y="6.5" size="1.016" layer="21" font="vector" ratio="14">RO</text>
+<text x="69.9125" y="6.175" size="1.016" layer="21" font="vector" ratio="14">RO</text>
 </plain>
 <libraries>
 <library name="pager">
@@ -989,7 +989,7 @@ reflow soldering</description>
 <attribute name="VALUE" x="27.8336" y="34.73" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R25" library="pager" package="_0402" value="10 k" x="76" y="13.25" smashed="yes" rot="R90">
-<attribute name="NAME" x="77.7561" y="11.93" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="77.8061" y="11.98" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="77.3336" y="11.98" size="0.508" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="R20" library="pager" package="_0402" value="50" x="33.5" y="33.5" smashed="yes" rot="R90">
@@ -1121,7 +1121,7 @@ reflow soldering</description>
 <attribute name="NAME" x="1.8378" y="9.5858" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
 <element name="SW2" library="pager" package="CHS-01A1" value="CHS-01A1" x="72.5" y="10.25" smashed="yes">
-<attribute name="NAME" x="70.8878" y="9.0608" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
+<attribute name="NAME" x="70.8878" y="8.4983" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
 <element name="U4" library="pager" package="TSOP-6" value="IP4234CZ6" x="4.5" y="30" smashed="yes" rot="R180">
 <attribute name="OC_DIGIKEY" value="568-5869-1-ND" x="4.5" y="30" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1464,7 +1464,7 @@ reflow soldering</description>
 <via x="36.5" y="15.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="13.5" y="28.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="7" y="31.75" extent="1-16" drill="0.25" diameter="0.6"/>
-<via x="34.5" y="27" extent="1-16" drill="0.25" diameter="0.6"/>
+<via x="34.75" y="26.5" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="36.5" y="39" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="34.5" y="41" extent="1-16" drill="0.25" diameter="0.6"/>
 <via x="33.5" y="38" extent="1-16" drill="0.25" diameter="0.6"/>
@@ -1566,6 +1566,10 @@ reflow soldering</description>
 <wire x1="69.25" y1="21" x2="69.25" y2="19.5" width="0.2" layer="1"/>
 <wire x1="69.25" y1="19.5" x2="68.75" y2="19" width="0.2" layer="1"/>
 <wire x1="68.75" y1="19" x2="67.5" y2="19" width="0.2" layer="1"/>
+<via x="34.5" y="27.75" extent="1-16" drill="0.25" diameter="0.6"/>
+<via x="35.725" y="16.9" extent="1-16" drill="0.25" diameter="0.6"/>
+<via x="11.25" y="28.5" extent="1-16" drill="0.25" diameter="0.6"/>
+<via x="19.25" y="33" extent="1-16" drill="0.25" diameter="0.6"/>
 </signal>
 <signal name="ETH_1B_TX_P" class="1">
 <contactref element="U3" pad="19"/>
