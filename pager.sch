@@ -1192,6 +1192,47 @@ Metric Code Size 4532</description>
 <text x="-4" y="4" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <text x="-4" y="-3" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
+<package name="MOLEX_475710001_MICROSD_SOCKET">
+<smd name="P5" x="-0.85" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P6" x="-1.95" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P7" x="-3.05" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P8" x="-4.15" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P4" x="0.25" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P3" x="1.35" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P2" x="2.45" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="P1" x="3.55" y="1.4" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="G1" x="-5.27" y="0.35" dx="1.2" dy="1.05" layer="1" rot="R90"/>
+<smd name="G2" x="-5.22" y="-2.24" dx="1.2" dy="1.15" layer="1" rot="R90"/>
+<smd name="G3" x="5.175" y="-0.04" dx="1.1" dy="1.45" layer="1" rot="R90"/>
+<smd name="G4" x="5.4" y="-1.24" dx="0.7" dy="1" layer="1" rot="R90"/>
+<smd name="G5" x="5.2" y="-2.39" dx="0.9" dy="1.4" layer="1" rot="R90"/>
+<wire x1="-5.7" y1="1.3" x2="-5.7" y2="2.71" width="0.2" layer="21"/>
+<wire x1="-5.7" y1="2.71" x2="5.7" y2="2.71" width="0.2" layer="21"/>
+<wire x1="5.7" y1="2.71" x2="5.7" y2="0.9" width="0.2" layer="21"/>
+<wire x1="-5.7" y1="-0.6" x2="-5.7" y2="-1.3" width="0.2" layer="21"/>
+<wire x1="-4.3" y1="-2.7" x2="4.16" y2="-2.7" width="0.2" layer="21"/>
+<text x="-5.6" y="3.4" size="1.016" layer="21" font="vector" ratio="14">&gt;NAME</text>
+<wire x1="5" y1="-3.1" x2="5" y2="-3.269759375" width="0.2" layer="51"/>
+<wire x1="5" y1="-3.269759375" x2="5.154025" y2="-3.6711375" width="0.2" layer="51" curve="41.987257"/>
+<wire x1="5.154025" y1="-3.6711375" x2="5.76910625" y2="-4.3545625" width="0.2" layer="51"/>
+<wire x1="5.76910625" y1="-4.3545625" x2="5.9" y2="-4.695665625" width="0.2" layer="51" curve="-41.986914"/>
+<wire x1="5.9" y1="-4.695665625" x2="5.9" y2="-5.6" width="0.2" layer="51"/>
+<wire x1="5.9" y1="-5.6" x2="5.52360625" y2="-5.6" width="0.2" layer="51"/>
+<wire x1="5.52360625" y1="-5.6" x2="5.3" y2="-5.82360625" width="0.2" layer="51" curve="90"/>
+<wire x1="5.3" y1="-5.82360625" x2="5.3" y2="-6.201759375" width="0.2" layer="51"/>
+<wire x1="5.3" y1="-6.201759375" x2="5.49409375" y2="-6.72644375" width="0.2" layer="51" curve="40.601319"/>
+<wire x1="5.49409375" y1="-6.72644375" x2="5.9" y2="-7.2" width="0.2" layer="51"/>
+<wire x1="5.9" y1="-7.2" x2="5.9" y2="-11.3" width="0.2" layer="51"/>
+<wire x1="5.9" y1="-11.3" x2="5.9" y2="-11.618978125" width="0.2" layer="51"/>
+<wire x1="5.9" y1="-11.618978125" x2="5.118978125" y2="-12.44" width="0.2" layer="51" curve="-90"/>
+<wire x1="5.118978125" y1="-12.44" x2="-4.718978125" y2="-12.44" width="0.2" layer="51"/>
+<wire x1="-4.718978125" y1="-12.44" x2="-5.5" y2="-11.618978125" width="0.2" layer="51" curve="-90"/>
+<wire x1="-5.5" y1="-11.618978125" x2="-5.5" y2="-3.1" width="0.2" layer="51"/>
+<wire x1="-5.4" y1="-11.3" x2="-2.106628125" y2="-10.95930625" width="0.2" layer="51"/>
+<wire x1="-2.106628125" y1="-10.95930625" x2="2.905140625" y2="-10.9732875" width="0.2" layer="51" curve="-12.131964"/>
+<wire x1="2.905140625" y1="-10.9732875" x2="5.9" y2="-11.3" width="0.2" layer="51"/>
+<text x="-4.6" y="-9.5" size="1.8" layer="51">microSD</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M">
@@ -1442,6 +1483,25 @@ Metric Code Size 4532</description>
 <text x="1.524" y="-1.27" size="2.54" layer="94" rot="R90">USB</text>
 <pin name="ID" x="-5.08" y="0" visible="pad" length="short"/>
 <pin name="SHIELD" x="5.08" y="-10.16" visible="pin" length="short" rot="R90"/>
+</symbol>
+<symbol name="MICROSD-SOCKET">
+<pin name="DAT2" x="-2.54" y="12.7" length="middle"/>
+<pin name="DAT3" x="-2.54" y="10.16" length="middle"/>
+<pin name="CMD" x="-2.54" y="7.62" length="middle"/>
+<pin name="VDD" x="-2.54" y="5.08" length="middle"/>
+<pin name="CLK" x="-2.54" y="2.54" length="middle"/>
+<pin name="VSS" x="-2.54" y="0" length="middle"/>
+<pin name="DAT0" x="-2.54" y="-2.54" length="middle"/>
+<pin name="DAT1" x="-2.54" y="-5.08" length="middle"/>
+<pin name="GND" x="-2.54" y="-17.78" length="middle"/>
+<pin name="DET" x="-2.54" y="-12.7" length="middle"/>
+<pin name="POL" x="-2.54" y="-10.16" length="middle"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-20.32" x2="15.24" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
+<text x="2.794" y="16.256" size="1.27" layer="95">&gt;NAME</text>
+<text x="14.986" y="-21.082" size="1.27" layer="96" rot="R180">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2494,6 +2554,31 @@ High volt MLC; no solder stop between for higher isolation</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="MOLEX_475710001_MICROSD_SOCKET">
+<gates>
+<gate name="G$1" symbol="MICROSD-SOCKET" x="-10.16" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_475710001_MICROSD_SOCKET">
+<connects>
+<connect gate="G$1" pin="CLK" pad="P5"/>
+<connect gate="G$1" pin="CMD" pad="P3"/>
+<connect gate="G$1" pin="DAT0" pad="P7"/>
+<connect gate="G$1" pin="DAT1" pad="P8"/>
+<connect gate="G$1" pin="DAT2" pad="P1"/>
+<connect gate="G$1" pin="DAT3" pad="P2"/>
+<connect gate="G$1" pin="DET" pad="G5"/>
+<connect gate="G$1" pin="GND" pad="G1 G2 G3"/>
+<connect gate="G$1" pin="POL" pad="G4"/>
+<connect gate="G$1" pin="VDD" pad="P4"/>
+<connect gate="G$1" pin="VSS" pad="P6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -2604,6 +2689,14 @@ High volt MLC; no solder stop between for higher isolation</description>
 <part name="GND19" library="pager" deviceset="GND" device=""/>
 <part name="R40" library="pager" deviceset="RESISTOR" device="_0402" value="4.7k"/>
 <part name="GND20" library="pager" deviceset="GND" device=""/>
+<part name="X3" library="pager" deviceset="MOLEX_475710001_MICROSD_SOCKET" device=""/>
+<part name="GND21" library="pager" deviceset="GND" device=""/>
+<part name="R41" library="pager" deviceset="RESISTOR" device="_0402" value="10k"/>
+<part name="R42" library="pager" deviceset="RESISTOR" device="_0402" value="10k"/>
+<part name="R43" library="pager" deviceset="RESISTOR" device="_0402" value="10k"/>
+<part name="R44" library="pager" deviceset="RESISTOR" device="_0402" value="10k"/>
+<part name="R45" library="pager" deviceset="RESISTOR" device="_0402" value="10k"/>
+<part name="R46" library="pager" deviceset="RESISTOR" device="_0402" value="22"/>
 </parts>
 <sheets>
 <sheet>
@@ -2873,14 +2966,40 @@ High volt MLC; no solder stop between for higher isolation</description>
 <instance part="SW1" gate="SW" x="-177.8" y="-10.16"/>
 <instance part="SW2" gate="SW" x="-50.8" y="-10.16"/>
 <instance part="U4" gate="G$1" x="111.76" y="81.28"/>
-<instance part="X2" gate="G$1" x="81.28" y="78.74" rot="MR0"/>
+<instance part="X2" gate="G$1" x="88.9" y="78.74" rot="MR0"/>
 <instance part="GND12" gate="1" x="111.76" y="66.04"/>
-<instance part="GND18" gate="1" x="88.9" y="66.04"/>
-<instance part="C14" gate="G$1" x="71.12" y="58.42" rot="R270"/>
-<instance part="R39" gate="G$1" x="81.28" y="55.88" rot="R90"/>
-<instance part="GND19" gate="1" x="76.2" y="43.18"/>
-<instance part="R40" gate="G$1" x="40.64" y="40.64" rot="R90"/>
-<instance part="GND20" gate="1" x="40.64" y="30.48"/>
+<instance part="GND18" gate="1" x="96.52" y="66.04"/>
+<instance part="C14" gate="G$1" x="78.74" y="58.42" rot="R270"/>
+<instance part="R39" gate="G$1" x="88.9" y="55.88" rot="R90"/>
+<instance part="GND19" gate="1" x="83.82" y="43.18"/>
+<instance part="R40" gate="G$1" x="55.88" y="40.64" rot="R90"/>
+<instance part="GND20" gate="1" x="55.88" y="30.48"/>
+<instance part="X3" gate="G$1" x="162.56" y="149.86"/>
+<instance part="GND21" gate="1" x="157.48" y="124.46"/>
+<instance part="R41" gate="G$1" x="152.4" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="153.4414" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="155.702" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R42" gate="G$1" x="149.86" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="150.9014" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="153.162" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R43" gate="G$1" x="147.32" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="148.3614" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R44" gate="G$1" x="144.78" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.8214" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="148.082" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R45" gate="G$1" x="142.24" y="170.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="143.2814" y="179.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="145.542" y="173.99" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R46" gate="G$1" x="152.4" y="152.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="153.924" y="155.194" size="1.27" layer="95" rot="R180"/>
+<attribute name="VALUE" x="153.416" y="150.749" size="1.27" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3130,8 +3249,8 @@ High volt MLC; no solder stop between for higher isolation</description>
 <segment>
 <pinref part="X2" gate="G$1" pin="GND"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="86.36" y1="76.2" x2="88.9" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="76.2" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="76.2" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="76.2" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
@@ -3140,19 +3259,29 @@ High volt MLC; no solder stop between for higher isolation</description>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="53.34" x2="71.12" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="53.34" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="76.2" y1="48.26" x2="76.2" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="48.26" x2="83.82" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="48.26" x2="76.2" y2="48.26" width="0.1524" layer="91"/>
-<junction x="76.2" y="48.26"/>
+<wire x1="88.9" y1="50.8" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<junction x="83.82" y="48.26"/>
 </segment>
 <segment>
 <pinref part="R40" gate="G$1" pin="1"/>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="40.64" y1="35.56" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="35.56" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="GND"/>
+<wire x1="160.02" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="132.08" x2="157.48" y2="127" width="0.1524" layer="91"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="X3" gate="G$1" pin="VSS"/>
+<wire x1="160.02" y1="149.86" x2="157.48" y2="149.86" width="0.1524" layer="91"/>
+<junction x="157.48" y="132.08"/>
+<wire x1="157.48" y1="149.86" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ETH_1B_TX_P" class="1">
@@ -3527,10 +3656,10 @@ High volt MLC; no solder stop between for higher isolation</description>
 <pinref part="U4" gate="G$1" pin="VCC"/>
 <wire x1="137.16" y1="99.06" x2="111.76" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="99.06" x2="111.76" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="99.06" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="99.06" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="VBUS"/>
-<wire x1="91.44" y1="86.36" x2="86.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="86.36" x2="93.98" y2="86.36" width="0.1524" layer="91"/>
 <junction x="111.76" y="99.06"/>
 <junction x="137.16" y="99.06"/>
 </segment>
@@ -3594,6 +3723,33 @@ High volt MLC; no solder stop between for higher isolation</description>
 <label x="-38.1" y="162.56" size="1.27" layer="95" xref="yes"/>
 <wire x1="-43.18" y1="162.56" x2="-38.1" y2="162.56" width="0.1524" layer="91"/>
 <junction x="-43.18" y="162.56"/>
+</segment>
+<segment>
+<pinref part="R41" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="175.26" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="177.8" x2="149.86" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="177.8" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="177.8" x2="144.78" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="177.8" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="177.8" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="175.26" x2="142.24" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="175.26" x2="144.78" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R43" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="175.26" x2="147.32" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="R42" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="175.26" x2="149.86" y2="177.8" width="0.1524" layer="91"/>
+<junction x="142.24" y="177.8"/>
+<junction x="144.78" y="177.8"/>
+<junction x="147.32" y="177.8"/>
+<junction x="149.86" y="177.8"/>
+<pinref part="X3" gate="G$1" pin="VDD"/>
+<wire x1="160.02" y1="154.94" x2="157.48" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="154.94" x2="157.48" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="177.8" x2="152.4" y2="177.8" width="0.1524" layer="91"/>
+<junction x="152.4" y="177.8"/>
+<label x="139.7" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="WP_CORE" class="0">
@@ -3660,25 +3816,25 @@ High volt MLC; no solder stop between for higher isolation</description>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="(SD_WP,GPIO#22)MDI_TP_P3"/>
-<wire x1="33.02" y1="48.26" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<label x="45.72" y="48.26" size="1.27" layer="95" xref="yes"/>
+<wire x1="33.02" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="60.96" y="48.26" size="1.27" layer="95" xref="yes"/>
 <pinref part="R40" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="45.72" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<junction x="40.64" y="48.26"/>
+<wire x1="55.88" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="45.72" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<junction x="55.88" y="48.26"/>
 </segment>
 </net>
 <net name="USB_RAW_P" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="D+"/>
 <pinref part="U4" gate="G$1" pin="1A"/>
-<wire x1="86.36" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="83.82" x2="101.6" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_RAW_N" class="2">
 <segment>
 <pinref part="X2" gate="G$1" pin="D-"/>
-<wire x1="86.36" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="81.28" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="2A"/>
 <wire x1="96.52" y1="78.74" x2="101.6" y2="78.74" width="0.1524" layer="91"/>
@@ -3687,14 +3843,14 @@ High volt MLC; no solder stop between for higher isolation</description>
 <net name="SHIELD" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SHIELD"/>
-<wire x1="76.2" y1="68.58" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="68.58" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="71.12" y1="66.04" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="66.04" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="60.96" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="66.04" x2="76.2" y2="66.04" width="0.1524" layer="91"/>
-<junction x="76.2" y="66.04"/>
+<wire x1="88.9" y1="60.96" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
+<junction x="83.82" y="66.04"/>
 </segment>
 </net>
 <net name="USB_N" class="2">
@@ -3713,6 +3869,105 @@ High volt MLC; no solder stop between for higher isolation</description>
 <wire x1="129.54" y1="40.64" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="1B"/>
 <wire x1="129.54" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD_D2" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="DAT2"/>
+<wire x1="160.02" y1="162.56" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+<label x="139.7" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R41" gate="G$1" pin="1"/>
+<wire x1="152.4" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="165.1" x2="152.4" y2="162.56" width="0.1524" layer="91"/>
+<junction x="152.4" y="162.56"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_D2,GPIO#27)MDI_TN_P4"/>
+<wire x1="33.02" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
+<label x="35.56" y="33.02" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SD_D3" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="DAT3"/>
+<wire x1="160.02" y1="160.02" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<label x="139.7" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="149.86" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="165.1" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
+<junction x="149.86" y="160.02"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_D3,GPIO#29)MDI_TP_P4"/>
+<wire x1="33.02" y1="35.56" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
+<label x="35.56" y="35.56" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SD_CMD" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="CMD"/>
+<wire x1="160.02" y1="157.48" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<label x="139.7" y="157.48" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="157.48" x2="139.7" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="165.1" x2="147.32" y2="157.48" width="0.1524" layer="91"/>
+<junction x="147.32" y="157.48"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_CMD,GPIO#28)MDI_RN_P4"/>
+<wire x1="33.02" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<label x="35.56" y="38.1" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SD_D0" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="DAT0"/>
+<wire x1="160.02" y1="147.32" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<label x="139.7" y="147.32" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="147.32" x2="139.7" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="165.1" x2="144.78" y2="147.32" width="0.1524" layer="91"/>
+<junction x="144.78" y="147.32"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_D0,GPIO#25)RPIO_RN_P3"/>
+<wire x1="33.02" y1="50.8" x2="35.56" y2="50.8" width="0.1524" layer="91"/>
+<label x="35.56" y="50.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="SD_D1" class="0">
+<segment>
+<pinref part="X3" gate="G$1" pin="DAT1"/>
+<wire x1="160.02" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<label x="139.7" y="144.78" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R45" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="165.1" x2="142.24" y2="144.78" width="0.1524" layer="91"/>
+<junction x="142.24" y="144.78"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_D1,GPIO#24)MDI_RP_P3"/>
+<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<label x="35.56" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="1"/>
+<pinref part="X3" gate="G$1" pin="CLK"/>
+<wire x1="157.48" y1="152.4" x2="160.02" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SD_CLK" class="0">
+<segment>
+<pinref part="R46" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
+<label x="139.7" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="(SD_CLK,GPIO#26)MDI_RP_P4"/>
+<wire x1="33.02" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
+<label x="35.56" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
