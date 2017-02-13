@@ -765,8 +765,8 @@ reflow soldering</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="3mil"/>
-<param name="mlMaxStopFrame" value="5mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="8mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
